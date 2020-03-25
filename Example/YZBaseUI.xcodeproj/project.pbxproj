@@ -22,6 +22,22 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B00D4F7E2428637500E3D0DA /* YZSearchCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */; };
+		B00D4F82242863C800E3D0DA /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D4F80242863C800E3D0DA /* YZSearchHistoryCell.m */; };
+		B00D4F83242863C800E3D0DA /* YZSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00D4F81242863C800E3D0DA /* YZSearchHistoryCell.xib */; };
+		B00D4F8724287DCA00E3D0DA /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D4F8524287DCA00E3D0DA /* YZHistoryHeaderView.m */; };
+		B00D4F8824287DCA00E3D0DA /* YZHistoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00D4F8624287DCA00E3D0DA /* YZHistoryHeaderView.xib */; };
+		B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F215242B37B000C01DAC /* UIImage+Extension.m */; };
+		B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */; };
+		B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F219242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.m */; };
+		B014F221242B37B100C01DAC /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F21C242B37B100C01DAC /* UIColor+Extension.m */; };
+		B04717A62429D8DD00563BDB /* YZResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A52429D8DD00563BDB /* YZResultController.m */; };
+		B04717A92429DDB000563BDB /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A82429DDB000563BDB /* YZSearchBar.m */; };
+		B0A10225242847EC00C9102C /* YZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A10224242847EC00C9102C /* YZSearchController.m */; };
+		B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B0A8BD8E242AF095009CE8F6 /* .gitkeep */; };
+		B0A8BD91242AF095009CE8F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A8BD8F242AF095009CE8F6 /* Images.xcassets */; };
+		D3294CE5EDC4CE598E9B4E1D /* Pods_YZBaseUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */; };
+		D392F52C33ECAF12A5E77DCD /* Pods_YZBaseUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C8ACFE2334E20D1D2A343 /* Pods_YZBaseUI_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0142E2F65E96CA21C99B9309 /* YZBaseUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YZBaseUI.podspec; path = ../YZBaseUI.podspec; sourceTree = "<group>"; };
-		16E8073430119913F97A8C9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0142E2F65E96CA21C99B9309 /* YZBaseUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YZBaseUI.podspec; path = ../YZBaseUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0BEF0AEE96DB395BF003D626 /* Pods-YZBaseUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YZBaseUI_Tests/Pods-YZBaseUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		16E8073430119913F97A8C9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E3C8ACFE2334E20D1D2A343 /* Pods_YZBaseUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZBaseUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YZBaseUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZBaseUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,9 +74,40 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		63A2EF68E446B5E6890095B8 /* Pods-YZBaseUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseUI_Example.release.xcconfig"; path = "Target Support Files/Pods-YZBaseUI_Example/Pods-YZBaseUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6A52B1BD266206A177BF53CF /* Pods-YZBaseUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-YZBaseUI_Example/Pods-YZBaseUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89F3BA8AF8E8DAEDEBB62D30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		89F3BA8AF8E8DAEDEBB62D30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZBaseUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4250D9C66C81FCBBBC40581 /* Pods-YZBaseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-YZBaseUI_Tests/Pods-YZBaseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B00D4F7A2428600F00E3D0DA /* YZConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZConstants.h; path = ../YZBaseUI/Classes/YZConstants.h; sourceTree = "<group>"; };
+		B00D4F7B2428603500E3D0DA /* YZBaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZBaseUI.h; path = ../YZBaseUI/Classes/YZBaseUI.h; sourceTree = "<group>"; };
+		B00D4F7C2428637500E3D0DA /* YZSearchCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchCollectionViewLayout.h; path = ../YZBaseUI/Classes/YZSearchCollectionViewLayout.h; sourceTree = "<group>"; };
+		B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchCollectionViewLayout.m; path = ../YZBaseUI/Classes/YZSearchCollectionViewLayout.m; sourceTree = "<group>"; };
+		B00D4F7F242863C800E3D0DA /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = ../YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
+		B00D4F80242863C800E3D0DA /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = ../YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
+		B00D4F81242863C800E3D0DA /* YZSearchHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YZSearchHistoryCell.xib; path = ../YZBaseUI/Classes/YZSearchHistoryCell.xib; sourceTree = "<group>"; };
+		B00D4F8424287DCA00E3D0DA /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = ../YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
+		B00D4F8524287DCA00E3D0DA /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = ../YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
+		B00D4F8624287DCA00E3D0DA /* YZHistoryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YZHistoryHeaderView.xib; path = ../YZBaseUI/Classes/YZHistoryHeaderView.xib; sourceTree = "<group>"; };
+		B014F215242B37B000C01DAC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		B014F216242B37B000C01DAC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		B014F219242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		B014F21A242B37B000C01DAC /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		B014F21B242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		B014F21C242B37B100C01DAC /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		B014F21D242B37B100C01DAC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		B04717A42429D8DD00563BDB /* YZResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZResultController.h; sourceTree = "<group>"; };
+		B04717A52429D8DD00563BDB /* YZResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZResultController.m; sourceTree = "<group>"; };
+		B04717A72429DDB000563BDB /* YZSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchBar.h; path = ../YZBaseUI/Classes/YZSearchBar.h; sourceTree = "<group>"; };
+		B04717A82429DDB000563BDB /* YZSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchBar.m; path = ../YZBaseUI/Classes/YZSearchBar.m; sourceTree = "<group>"; };
+		B0A10223242847EC00C9102C /* YZSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchController.h; path = ../YZBaseUI/Classes/YZSearchController.h; sourceTree = "<group>"; };
+		B0A10224242847EC00C9102C /* YZSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchController.m; path = ../YZBaseUI/Classes/YZSearchController.m; sourceTree = "<group>"; };
+		B0A1022724284AE500C9102C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B0A8BD8E242AF095009CE8F6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B0A8BD8F242AF095009CE8F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +118,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				D3294CE5EDC4CE598E9B4E1D /* Pods_YZBaseUI_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +129,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				D392F52C33ECAF12A5E77DCD /* Pods_YZBaseUI_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,11 +139,28 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B014F214242B378100C01DAC /* Category */,
+				B0A8BD8D242AF095009CE8F6 /* Assets */,
+				B04717A72429DDB000563BDB /* YZSearchBar.h */,
+				B04717A82429DDB000563BDB /* YZSearchBar.m */,
+				B00D4F8424287DCA00E3D0DA /* YZHistoryHeaderView.h */,
+				B00D4F8524287DCA00E3D0DA /* YZHistoryHeaderView.m */,
+				B00D4F8624287DCA00E3D0DA /* YZHistoryHeaderView.xib */,
+				B00D4F7F242863C800E3D0DA /* YZSearchHistoryCell.h */,
+				B00D4F80242863C800E3D0DA /* YZSearchHistoryCell.m */,
+				B00D4F81242863C800E3D0DA /* YZSearchHistoryCell.xib */,
+				B00D4F7C2428637500E3D0DA /* YZSearchCollectionViewLayout.h */,
+				B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */,
+				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
+				B00D4F7A2428600F00E3D0DA /* YZConstants.h */,
+				B0A10223242847EC00C9102C /* YZSearchController.h */,
+				B0A10224242847EC00C9102C /* YZSearchController.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YZBaseUI */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				9F133814E26D5EEE9AE4FCB6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +180,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */,
+				2E3C8ACFE2334E20D1D2A343 /* Pods_YZBaseUI_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +197,9 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				B0A1022724284AE500C9102C /* PrefixHeader.pch */,
+				B04717A42429D8DD00563BDB /* YZResultController.h */,
+				B04717A52429D8DD00563BDB /* YZResultController.m */,
 			);
 			name = "Example for YZBaseUI";
 			path = YZBaseUI;
@@ -172,6 +245,51 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9F133814E26D5EEE9AE4FCB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A52B1BD266206A177BF53CF /* Pods-YZBaseUI_Example.debug.xcconfig */,
+				63A2EF68E446B5E6890095B8 /* Pods-YZBaseUI_Example.release.xcconfig */,
+				0BEF0AEE96DB395BF003D626 /* Pods-YZBaseUI_Tests.debug.xcconfig */,
+				A4250D9C66C81FCBBBC40581 /* Pods-YZBaseUI_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B014F214242B378100C01DAC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B014F217242B37B000C01DAC /* ConsoleChinese */,
+				B014F216242B37B000C01DAC /* UIColor+Extension.h */,
+				B014F21C242B37B100C01DAC /* UIColor+Extension.m */,
+				B014F21D242B37B100C01DAC /* UIImage+Extension.h */,
+				B014F215242B37B000C01DAC /* UIImage+Extension.m */,
+			);
+			name = Category;
+			path = ../YZBaseUI/Classes/Category;
+			sourceTree = "<group>";
+		};
+		B014F217242B37B000C01DAC /* ConsoleChinese */ = {
+			isa = PBXGroup;
+			children = (
+				B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */,
+				B014F219242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.m */,
+				B014F21A242B37B000C01DAC /* NSArray+HYBUnicodeReadable.h */,
+				B014F21B242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.h */,
+			);
+			path = ConsoleChinese;
+			sourceTree = "<group>";
+		};
+		B0A8BD8D242AF095009CE8F6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B0A8BD8E242AF095009CE8F6 /* .gitkeep */,
+				B0A8BD8F242AF095009CE8F6 /* Images.xcassets */,
+			);
+			name = Assets;
+			path = ../YZBaseUI/Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "YZBaseUI_Example" */;
 			buildPhases = (
+				F813CB9216843AD255717C6C /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				2219EC0A3C52C6D065C76876 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YZBaseUI_Tests" */;
 			buildPhases = (
+				865FBC86142A67B2494BD727 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				0EC42F3C0D9A3B10267EF5CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,16 +342,20 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "niansi.no@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = KFH4SQ3L2K;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YZBaseUI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,9 +376,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				B0A8BD91242AF095009CE8F6 /* Images.xcassets in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				B00D4F8824287DCA00E3D0DA /* YZHistoryHeaderView.xib in Resources */,
+				B00D4F83242863C800E3D0DA /* YZSearchHistoryCell.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +396,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC42F3C0D9A3B10267EF5CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YZBaseUI_Tests/Pods-YZBaseUI_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YZBaseUI_Tests/Pods-YZBaseUI_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2219EC0A3C52C6D065C76876 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YZBaseUI_Example/Pods-YZBaseUI_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YZBaseUI/YZBaseUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YZBaseUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YZBaseUI_Example/Pods-YZBaseUI_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865FBC86142A67B2494BD727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZBaseUI_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F813CB9216843AD255717C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZBaseUI_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00D4F8724287DCA00E3D0DA /* YZHistoryHeaderView.m in Sources */,
+				B0A10225242847EC00C9102C /* YZSearchController.m in Sources */,
+				B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */,
 				6003F59E195388D20070C39A /* YZAppDelegate.m in Sources */,
+				B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				B014F221242B37B100C01DAC /* UIColor+Extension.m in Sources */,
+				B00D4F7E2428637500E3D0DA /* YZSearchCollectionViewLayout.m in Sources */,
+				B04717A92429DDB000563BDB /* YZSearchBar.m in Sources */,
+				B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */,
+				B00D4F82242863C800E3D0DA /* YZSearchHistoryCell.m in Sources */,
+				B04717A62429D8DD00563BDB /* YZResultController.m in Sources */,
 				6003F5A7195388D20070C39A /* YZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -398,10 +621,12 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A52B1BD266206A177BF53CF /* Pods-YZBaseUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KFH4SQ3L2K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YZBaseUI/YZBaseUI-Prefix.pch";
+				GCC_PREFIX_HEADER = YZBaseUI/PrefixHeader.pch;
 				INFOPLIST_FILE = "YZBaseUI/YZBaseUI-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -413,10 +638,12 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A2EF68E446B5E6890095B8 /* Pods-YZBaseUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KFH4SQ3L2K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YZBaseUI/YZBaseUI-Prefix.pch";
+				GCC_PREFIX_HEADER = YZBaseUI/PrefixHeader.pch;
 				INFOPLIST_FILE = "YZBaseUI/YZBaseUI-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -428,6 +655,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BEF0AEE96DB395BF003D626 /* Pods-YZBaseUI_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +680,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4250D9C66C81FCBBBC40581 /* Pods-YZBaseUI_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -473,7 +702,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "YZBaseUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

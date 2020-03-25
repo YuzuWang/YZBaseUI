@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YZBaseUI/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YZBaseUI' => ['YZBaseUI/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'YZBaseUI' => ['YZBaseUI/Assets/*/*.*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  YZBaseUI
+//
+//  Created by Nansi on 2020/3/23.
+//  Copyright © 2020 niansi.no@gmail.com. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "YZBaseUI.h"
+#import "YZConstants.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

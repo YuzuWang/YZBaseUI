@@ -1,0 +1,6 @@
+framework module YZBaseUI {
+  umbrella header "YZBaseUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_YZBaseUI_Example {
+  umbrella header "Pods-YZBaseUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

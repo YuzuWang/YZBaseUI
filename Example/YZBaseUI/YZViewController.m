@@ -7,8 +7,9 @@
 //
 
 #import "YZViewController.h"
+#import "YZResultController.h"
 
-@interface YZViewController ()
+@interface YZViewController ()<YZSearchControllerDelegate, UIGestureRecognizerDelegate>
 
 @end
 
@@ -17,13 +18,34 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    YZResultController *resultVC = [[YZResultController alloc] init];
+    
+    YZSearchController *controller = [[YZSearchController alloc] initWithResultViewController:resultVC];
+    controller.delegate = self;
+    controller.modalPresentationStyle= UIModalPresentationFullScreen;
+    controller.hotKeys = [NSMutableArray arrayWithArray: @[@"洗漱用品",@"生活用品",@"科技产品"]];
+//    [self.navigationController pushViewController:controller animated:NO];
+    [self presentViewController:controller animated:false completion:nil];
 }
+
+
+- (void)searchCotroller:(YZSearchController *)searchController beginSearch:(NSString *)searchText withResultController:(UIViewController *)resultController {
+    
+    NSLog(@"搜索的关键字是 ====> %@", searchText);
+}
+
+//- (UIView *)customBackButton {
+//    UIView *view = [[UIView alloc] init];
+//    view.backgroundColor = [UIColor blueColor];
+//    return view;
+//}
 
 @end

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YZBaseUI (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YZBaseUI (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YZBaseUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YZBaseUI: f216186910e68c5465301db16514e4e44596b7c2
+
+PODFILE CHECKSUM: fee5b4e4d95f9b87174172314599f457db239238
+
+COCOAPODS: 1.9.1

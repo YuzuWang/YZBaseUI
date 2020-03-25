@@ -7,12 +7,22 @@
 //
 
 #import "YZAppDelegate.h"
+#import "YZViewController.h"
 
 @implementation YZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    YZViewController *vc = [[YZViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+       [self.window makeKeyAndVisible];
+    
+    [self.window setRootViewController:nav];
+
     return YES;
 }
 
