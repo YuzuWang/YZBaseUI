@@ -23,19 +23,19 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B00D4F7E2428637500E3D0DA /* YZSearchCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */; };
-		B00D4F82242863C800E3D0DA /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D4F80242863C800E3D0DA /* YZSearchHistoryCell.m */; };
-		B00D4F83242863C800E3D0DA /* YZSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00D4F81242863C800E3D0DA /* YZSearchHistoryCell.xib */; };
-		B00D4F8724287DCA00E3D0DA /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D4F8524287DCA00E3D0DA /* YZHistoryHeaderView.m */; };
-		B00D4F8824287DCA00E3D0DA /* YZHistoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00D4F8624287DCA00E3D0DA /* YZHistoryHeaderView.xib */; };
 		B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F215242B37B000C01DAC /* UIImage+Extension.m */; };
 		B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */; };
 		B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F219242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.m */; };
 		B014F221242B37B100C01DAC /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F21C242B37B100C01DAC /* UIColor+Extension.m */; };
+		B014F225242B5B0C00C01DAC /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B014F224242B5B0C00C01DAC /* Resources.bundle */; };
+		B014F234242B5D5B00C01DAC /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */; };
+		B014F235242B5D5B00C01DAC /* YZHistoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F22F242B5D5B00C01DAC /* YZHistoryHeaderView.xib */; };
+		B014F236242B5D5B00C01DAC /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */; };
+		B014F237242B5D5B00C01DAC /* YZSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F232242B5D5B00C01DAC /* YZSearchHistoryCell.xib */; };
 		B04717A62429D8DD00563BDB /* YZResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A52429D8DD00563BDB /* YZResultController.m */; };
 		B04717A92429DDB000563BDB /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A82429DDB000563BDB /* YZSearchBar.m */; };
 		B0A10225242847EC00C9102C /* YZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A10224242847EC00C9102C /* YZSearchController.m */; };
 		B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B0A8BD8E242AF095009CE8F6 /* .gitkeep */; };
-		B0A8BD91242AF095009CE8F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A8BD8F242AF095009CE8F6 /* Images.xcassets */; };
 		D3294CE5EDC4CE598E9B4E1D /* Pods_YZBaseUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */; };
 		D392F52C33ECAF12A5E77DCD /* Pods_YZBaseUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C8ACFE2334E20D1D2A343 /* Pods_YZBaseUI_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -85,12 +85,6 @@
 		B00D4F7B2428603500E3D0DA /* YZBaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZBaseUI.h; path = ../YZBaseUI/Classes/YZBaseUI.h; sourceTree = "<group>"; };
 		B00D4F7C2428637500E3D0DA /* YZSearchCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchCollectionViewLayout.h; path = ../YZBaseUI/Classes/YZSearchCollectionViewLayout.h; sourceTree = "<group>"; };
 		B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchCollectionViewLayout.m; path = ../YZBaseUI/Classes/YZSearchCollectionViewLayout.m; sourceTree = "<group>"; };
-		B00D4F7F242863C800E3D0DA /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = ../YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
-		B00D4F80242863C800E3D0DA /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = ../YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
-		B00D4F81242863C800E3D0DA /* YZSearchHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YZSearchHistoryCell.xib; path = ../YZBaseUI/Classes/YZSearchHistoryCell.xib; sourceTree = "<group>"; };
-		B00D4F8424287DCA00E3D0DA /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = ../YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
-		B00D4F8524287DCA00E3D0DA /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = ../YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
-		B00D4F8624287DCA00E3D0DA /* YZHistoryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YZHistoryHeaderView.xib; path = ../YZBaseUI/Classes/YZHistoryHeaderView.xib; sourceTree = "<group>"; };
 		B014F215242B37B000C01DAC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		B014F216242B37B000C01DAC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
@@ -99,6 +93,13 @@
 		B014F21B242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		B014F21C242B37B100C01DAC /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		B014F21D242B37B100C01DAC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		B014F224242B5B0C00C01DAC /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = ../YZBaseUI/Resources.bundle; sourceTree = "<group>"; };
+		B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = ../YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
+		B014F22F242B5D5B00C01DAC /* YZHistoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YZHistoryHeaderView.xib; path = ../YZBaseUI/Classes/YZHistoryHeaderView.xib; sourceTree = "<group>"; };
+		B014F230242B5D5B00C01DAC /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = ../YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
+		B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = ../YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
+		B014F232242B5D5B00C01DAC /* YZSearchHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YZSearchHistoryCell.xib; path = ../YZBaseUI/Classes/YZSearchHistoryCell.xib; sourceTree = "<group>"; };
+		B014F233242B5D5B00C01DAC /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = ../YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
 		B04717A42429D8DD00563BDB /* YZResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZResultController.h; sourceTree = "<group>"; };
 		B04717A52429D8DD00563BDB /* YZResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZResultController.m; sourceTree = "<group>"; };
 		B04717A72429DDB000563BDB /* YZSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchBar.h; path = ../YZBaseUI/Classes/YZSearchBar.h; sourceTree = "<group>"; };
@@ -107,7 +108,6 @@
 		B0A10224242847EC00C9102C /* YZSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YZSearchController.m; path = ../YZBaseUI/Classes/YZSearchController.m; sourceTree = "<group>"; };
 		B0A1022724284AE500C9102C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B0A8BD8E242AF095009CE8F6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		B0A8BD8F242AF095009CE8F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,16 +139,17 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B014F224242B5B0C00C01DAC /* Resources.bundle */,
 				B014F214242B378100C01DAC /* Category */,
 				B0A8BD8D242AF095009CE8F6 /* Assets */,
 				B04717A72429DDB000563BDB /* YZSearchBar.h */,
 				B04717A82429DDB000563BDB /* YZSearchBar.m */,
-				B00D4F8424287DCA00E3D0DA /* YZHistoryHeaderView.h */,
-				B00D4F8524287DCA00E3D0DA /* YZHistoryHeaderView.m */,
-				B00D4F8624287DCA00E3D0DA /* YZHistoryHeaderView.xib */,
-				B00D4F7F242863C800E3D0DA /* YZSearchHistoryCell.h */,
-				B00D4F80242863C800E3D0DA /* YZSearchHistoryCell.m */,
-				B00D4F81242863C800E3D0DA /* YZSearchHistoryCell.xib */,
+				B014F230242B5D5B00C01DAC /* YZHistoryHeaderView.h */,
+				B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */,
+				B014F22F242B5D5B00C01DAC /* YZHistoryHeaderView.xib */,
+				B014F233242B5D5B00C01DAC /* YZSearchHistoryCell.h */,
+				B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */,
+				B014F232242B5D5B00C01DAC /* YZSearchHistoryCell.xib */,
 				B00D4F7C2428637500E3D0DA /* YZSearchCollectionViewLayout.h */,
 				B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */,
 				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
@@ -284,7 +285,6 @@
 			isa = PBXGroup;
 			children = (
 				B0A8BD8E242AF095009CE8F6 /* .gitkeep */,
-				B0A8BD8F242AF095009CE8F6 /* Images.xcassets */,
 			);
 			name = Assets;
 			path = ../YZBaseUI/Assets;
@@ -376,11 +376,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				B0A8BD91242AF095009CE8F6 /* Images.xcassets in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				B014F235242B5D5B00C01DAC /* YZHistoryHeaderView.xib in Resources */,
+				B014F237242B5D5B00C01DAC /* YZSearchHistoryCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				B00D4F8824287DCA00E3D0DA /* YZHistoryHeaderView.xib in Resources */,
-				B00D4F83242863C800E3D0DA /* YZSearchHistoryCell.xib in Resources */,
+				B014F225242B5B0C00C01DAC /* Resources.bundle in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */,
 			);
@@ -484,8 +484,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00D4F8724287DCA00E3D0DA /* YZHistoryHeaderView.m in Sources */,
+				B014F236242B5D5B00C01DAC /* YZSearchHistoryCell.m in Sources */,
 				B0A10225242847EC00C9102C /* YZSearchController.m in Sources */,
+				B014F234242B5D5B00C01DAC /* YZHistoryHeaderView.m in Sources */,
 				B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */,
 				6003F59E195388D20070C39A /* YZAppDelegate.m in Sources */,
 				B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */,
@@ -493,7 +494,6 @@
 				B00D4F7E2428637500E3D0DA /* YZSearchCollectionViewLayout.m in Sources */,
 				B04717A92429DDB000563BDB /* YZSearchBar.m in Sources */,
 				B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */,
-				B00D4F82242863C800E3D0DA /* YZSearchHistoryCell.m in Sources */,
 				B04717A62429D8DD00563BDB /* YZResultController.m in Sources */,
 				6003F5A7195388D20070C39A /* YZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

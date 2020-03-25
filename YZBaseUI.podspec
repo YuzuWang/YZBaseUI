@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YZBaseUI'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YZBaseUI.'
+  s.version          = '0.1.1'
+  s.summary          = '自用的部分控件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Some Base UI
                        DESC
 
-  s.homepage         = 'https://github.com/niansi.no@gmail.com/YZBaseUI'
+  s.homepage         = 'https://github.com/YuzuWang/YZBaseUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'niansi.no@gmail.com' => 'iwungsc@icloud.com' }
-  s.source           = { :git => 'https://github.com/niansi.no@gmail.com/YZBaseUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/YuzuWang/YZBaseUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'YZBaseUI/Classes/**/*'
   
    s.resource_bundles = {
-     'YZBaseUI' => ['YZBaseUI/Assets/*/*.*']
+     'YZBaseUI' => ['YZBaseUI/Resources.bundle']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
