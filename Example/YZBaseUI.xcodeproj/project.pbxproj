@@ -29,9 +29,7 @@
 		B014F221242B37B100C01DAC /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F21C242B37B100C01DAC /* UIColor+Extension.m */; };
 		B014F225242B5B0C00C01DAC /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B014F224242B5B0C00C01DAC /* Resources.bundle */; };
 		B014F234242B5D5B00C01DAC /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */; };
-		B014F235242B5D5B00C01DAC /* YZHistoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F22F242B5D5B00C01DAC /* YZHistoryHeaderView.xib */; };
 		B014F236242B5D5B00C01DAC /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */; };
-		B014F237242B5D5B00C01DAC /* YZSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B014F232242B5D5B00C01DAC /* YZSearchHistoryCell.xib */; };
 		B04717A62429D8DD00563BDB /* YZResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A52429D8DD00563BDB /* YZResultController.m */; };
 		B04717A92429DDB000563BDB /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A82429DDB000563BDB /* YZSearchBar.m */; };
 		B0A10225242847EC00C9102C /* YZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A10224242847EC00C9102C /* YZSearchController.m */; };
@@ -95,10 +93,8 @@
 		B014F21D242B37B100C01DAC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		B014F224242B5B0C00C01DAC /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = ../YZBaseUI/Resources.bundle; sourceTree = "<group>"; };
 		B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = ../YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
-		B014F22F242B5D5B00C01DAC /* YZHistoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YZHistoryHeaderView.xib; path = ../YZBaseUI/Classes/YZHistoryHeaderView.xib; sourceTree = "<group>"; };
 		B014F230242B5D5B00C01DAC /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = ../YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
 		B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = ../YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
-		B014F232242B5D5B00C01DAC /* YZSearchHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YZSearchHistoryCell.xib; path = ../YZBaseUI/Classes/YZSearchHistoryCell.xib; sourceTree = "<group>"; };
 		B014F233242B5D5B00C01DAC /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = ../YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
 		B04717A42429D8DD00563BDB /* YZResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZResultController.h; sourceTree = "<group>"; };
 		B04717A52429D8DD00563BDB /* YZResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZResultController.m; sourceTree = "<group>"; };
@@ -146,10 +142,8 @@
 				B04717A82429DDB000563BDB /* YZSearchBar.m */,
 				B014F230242B5D5B00C01DAC /* YZHistoryHeaderView.h */,
 				B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */,
-				B014F22F242B5D5B00C01DAC /* YZHistoryHeaderView.xib */,
 				B014F233242B5D5B00C01DAC /* YZSearchHistoryCell.h */,
 				B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */,
-				B014F232242B5D5B00C01DAC /* YZSearchHistoryCell.xib */,
 				B00D4F7C2428637500E3D0DA /* YZSearchCollectionViewLayout.h */,
 				B00D4F7D2428637500E3D0DA /* YZSearchCollectionViewLayout.m */,
 				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
@@ -377,8 +371,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				B014F235242B5D5B00C01DAC /* YZHistoryHeaderView.xib in Resources */,
-				B014F237242B5D5B00C01DAC /* YZSearchHistoryCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				B014F225242B5B0C00C01DAC /* Resources.bundle in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,

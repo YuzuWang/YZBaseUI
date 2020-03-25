@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YZBaseUI (0.1.0)
+  - YZBaseUI (0.2.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YZBaseUI: b76f9ff65eaa02c9b73fb45f47e9785f89c1dcb2
+  YZBaseUI: 23ecc9c2e1e6ac2feb111af688a6f1786f11f4a5
 
 PODFILE CHECKSUM: fee5b4e4d95f9b87174172314599f457db239238
 
