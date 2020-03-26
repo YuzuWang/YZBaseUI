@@ -27,9 +27,12 @@
 		B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */; };
 		B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F219242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.m */; };
 		B014F221242B37B100C01DAC /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F21C242B37B100C01DAC /* UIColor+Extension.m */; };
-		B014F225242B5B0C00C01DAC /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B014F224242B5B0C00C01DAC /* Resources.bundle */; };
 		B014F234242B5D5B00C01DAC /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */; };
 		B014F236242B5D5B00C01DAC /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */; };
+		B0299216242C445F00CED4F6 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0299212242C445F00CED4F6 /* back@2x.png */; };
+		B0299217242C445F00CED4F6 /* YZSearchHistoryCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = B0299213242C445F00CED4F6 /* YZSearchHistoryCell.nib */; };
+		B0299218242C445F00CED4F6 /* YZHistoryHeaderView.nib in Resources */ = {isa = PBXBuildFile; fileRef = B0299214242C445F00CED4F6 /* YZHistoryHeaderView.nib */; };
+		B0299219242C445F00CED4F6 /* delete @2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0299215242C445F00CED4F6 /* delete @2x.png */; };
 		B04717A62429D8DD00563BDB /* YZResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A52429D8DD00563BDB /* YZResultController.m */; };
 		B04717A92429DDB000563BDB /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A82429DDB000563BDB /* YZSearchBar.m */; };
 		B0A10225242847EC00C9102C /* YZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A10224242847EC00C9102C /* YZSearchController.m */; };
@@ -91,11 +94,15 @@
 		B014F21B242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		B014F21C242B37B100C01DAC /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		B014F21D242B37B100C01DAC /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		B014F224242B5B0C00C01DAC /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = ../YZBaseUI/Resources.bundle; sourceTree = "<group>"; };
 		B014F22E242B5D5A00C01DAC /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = ../YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
 		B014F230242B5D5B00C01DAC /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = ../YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
 		B014F231242B5D5B00C01DAC /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = ../YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
 		B014F233242B5D5B00C01DAC /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = ../YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
+		B029920F242C442100CED4F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Root.strings; sourceTree = "<group>"; };
+		B0299212242C445F00CED4F6 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		B0299213242C445F00CED4F6 /* YZSearchHistoryCell.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = YZSearchHistoryCell.nib; sourceTree = "<group>"; };
+		B0299214242C445F00CED4F6 /* YZHistoryHeaderView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = YZHistoryHeaderView.nib; sourceTree = "<group>"; };
+		B0299215242C445F00CED4F6 /* delete @2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete @2x.png"; sourceTree = "<group>"; };
 		B04717A42429D8DD00563BDB /* YZResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZResultController.h; sourceTree = "<group>"; };
 		B04717A52429D8DD00563BDB /* YZResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZResultController.m; sourceTree = "<group>"; };
 		B04717A72429DDB000563BDB /* YZSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZSearchBar.h; path = ../YZBaseUI/Classes/YZSearchBar.h; sourceTree = "<group>"; };
@@ -135,7 +142,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				B014F224242B5B0C00C01DAC /* Resources.bundle */,
 				B014F214242B378100C01DAC /* Category */,
 				B0A8BD8D242AF095009CE8F6 /* Assets */,
 				B04717A72429DDB000563BDB /* YZSearchBar.h */,
@@ -275,9 +281,22 @@
 			path = ConsoleChinese;
 			sourceTree = "<group>";
 		};
+		B029920D242C442100CED4F6 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B029920E242C442100CED4F6 /* Root.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		B0A8BD8D242AF095009CE8F6 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B0299212242C445F00CED4F6 /* back@2x.png */,
+				B0299215242C445F00CED4F6 /* delete @2x.png */,
+				B0299214242C445F00CED4F6 /* YZHistoryHeaderView.nib */,
+				B0299213242C445F00CED4F6 /* YZSearchHistoryCell.nib */,
+				B029920D242C442100CED4F6 /* en.lproj */,
 				B0A8BD8E242AF095009CE8F6 /* .gitkeep */,
 			);
 			name = Assets;
@@ -369,12 +388,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0299219242C445F00CED4F6 /* delete @2x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				B014F225242B5B0C00C01DAC /* Resources.bundle in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B0299217242C445F00CED4F6 /* YZSearchHistoryCell.nib in Resources */,
 				B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */,
+				B0299216242C445F00CED4F6 /* back@2x.png in Resources */,
+				B0299218242C445F00CED4F6 /* YZHistoryHeaderView.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +555,14 @@
 				71719F9E1E33DC2100824A3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B029920E242C442100CED4F6 /* Root.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B029920F242C442100CED4F6 /* en */,
+			);
+			name = Root.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

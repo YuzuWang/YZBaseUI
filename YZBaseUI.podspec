@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YZBaseUI'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = '自用的部分控件'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'YZBaseUI/Classes/**/*'
   
    s.resource_bundles = {
-     'YZBaseUI' => ['YZBaseUI/Resources.bundle']
+     'YZBaseUI' => ['YZBaseUI/Assets/*.png','YZBaseUI/Assets/*.nib']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -8,58 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10150EA6D5FB401889BF9CC17163F325 /* YZSearchHistoryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C037EC6089EBABDBF5AC3790969B3A9 /* YZSearchHistoryCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10150EA6D5FB401889BF9CC17163F325 /* YZSearchHistoryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B71E8E6A04C077B634C82E3CEED31C /* YZSearchHistoryCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		129F3DFC5C55B3B264FF56629552A244 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD4D59D6883124590151388A10B08C /* UIColor+Extension.m */; };
+		129F3DFC5C55B3B264FF56629552A244 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F686576219DF48237D921895287BE6 /* UIColor+Extension.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		16BB2CB724A6CA7F21182379DEA037C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		257D58BA0CC1B1EBB5B2B2C70B285FF0 /* YZSearchController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5497E9D1E546A1764B709D67B09FD35D /* YZSearchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257D58BA0CC1B1EBB5B2B2C70B285FF0 /* YZSearchController.h in Headers */ = {isa = PBXBuildFile; fileRef = 442CB31D632B623084FB37147DB56029 /* YZSearchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		308967B8F40320C81F8ACEAF77105276 /* Pods-YZBaseUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD95A2371DF30538A5762A2F07140A0 /* Pods-YZBaseUI_Tests-dummy.m */; };
 		33078ED019518DC9459FCDB174151E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		34B44E4CFDDFB3506305BDEFB29FE039 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E757F510EE24EB414FE2AC3B0C990B9 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C75358AAD3919D19712F006262542CF /* YZBaseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46717F073359A597F7005A2D2975F237 /* YZBaseUI-dummy.m */; };
+		34B44E4CFDDFB3506305BDEFB29FE039 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CC27F7CC4C767E2EED620BD14CE2FC /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C75358AAD3919D19712F006262542CF /* YZBaseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BDA878FD23AC4667200358D81CAEE9 /* YZBaseUI-dummy.m */; };
 		3CDF9673668B3C00EDB04AB3D47EFC7E /* Pods-YZBaseUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C173A7A1556216483510754D33277F62 /* Pods-YZBaseUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		43CB41692BF401343F5E985FD11F442E /* YZSearchCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 242F514CD891F10B30A6859EF931103A /* YZSearchCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		580E63B38EA98214D97167DD7A78C777 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A130FA3730A2D1DEDEA3AE9C0E4CFA4 /* UIImage+Extension.m */; };
+		43CB41692BF401343F5E985FD11F442E /* YZSearchCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E72F32C0A651E7A04A2605F1BFF32504 /* YZSearchCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		577B84F40A47C9D097276FAC52FE0D99 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50BD34F721AF23E432FCE6069F4885B /* back@2x.png */; };
+		580E63B38EA98214D97167DD7A78C777 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB16256E4D6F8D31EA1BAF3F42411CE /* UIImage+Extension.m */; };
 		5AC4E1FB5F81AF294335923BE01C2BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		5BA6D20706E23CF7B1121AA5E1164B72 /* YZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01EF106B800730013BBBCC6A224D501 /* YZSearchController.m */; };
+		5BA6D20706E23CF7B1121AA5E1164B72 /* YZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A84097DA244BD765BA2B5A7AC3DB6B1 /* YZSearchController.m */; };
 		61578A4EFFB1F8CF8B0DAB8E38190945 /* Pods-YZBaseUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED540D5F178E044B3D48FAE306653ABF /* Pods-YZBaseUI_Example-dummy.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		6FAC427A49485A36194B43C2C0F2A68D /* YZBaseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 283E0795721FD57DA11640485515676F /* YZBaseUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FDFC29651AEF24E0F202AF859014208 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D6182E8736B0234496906DA9F49A1E /* NSArray+HYBUnicodeReadable.m */; };
-		764A66FFC6136506EA811C19F86E7014 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5FD5DA0EE3659FDFDE7B29E30CBEEA /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		766DCF5A3DB5BDC3A1DE6F780459DF6C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5D2BD2A9D08023672EEDEBA3FC5B4 /* ReplaceMe.m */; };
-		81502DA04B6CDF25D21DF89A361001A8 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2122729C2F8C2C49B36D68859F01B6 /* NSDictionary+HYBUnicodeReadable.m */; };
-		81DC7ED313F32E2896BAB7C36BD744DB /* YZBaseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE8CB430DCC22425B0F68982E93BC7F /* YZBaseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FAC427A49485A36194B43C2C0F2A68D /* YZBaseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 690901667972FF1A00547178E8BBABA8 /* YZBaseUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDFC29651AEF24E0F202AF859014208 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B77E65AF3058176FA56A9AE27014D8D1 /* NSArray+HYBUnicodeReadable.m */; };
+		764A66FFC6136506EA811C19F86E7014 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C1124573E45A9C2083BF90333BCA06 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766DCF5A3DB5BDC3A1DE6F780459DF6C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E8CEF5269AAA063AD1DD065852F63 /* ReplaceMe.m */; };
+		81502DA04B6CDF25D21DF89A361001A8 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 798A9F74EF297535757E5010A73E36A1 /* NSDictionary+HYBUnicodeReadable.m */; };
+		81DC7ED313F32E2896BAB7C36BD744DB /* YZBaseUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6B4272BFA0E70CBE4D55A32798AD8D /* YZBaseUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8303885EE05A0F38A3D11452A6683224 /* YZSearchHistoryCell.nib in Resources */ = {isa = PBXBuildFile; fileRef = 1924983A2F9983DBD44B2DC66843AEC8 /* YZSearchHistoryCell.nib */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		8ED783EE031B57051B08ECB650F171FD /* Pods-YZBaseUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 983DF7B53D2022BB9A4F20E573870719 /* Pods-YZBaseUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		956F2633E8AE9FDFE913F643EE4FD2DD /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B5E7DB26C26D21A9A619B6520F9E7 /* YZSearchHistoryCell.m */; };
+		956F2633E8AE9FDFE913F643EE4FD2DD /* YZSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4924AFB2E2235A7E4C23B4356E1A743F /* YZSearchHistoryCell.m */; };
+		974DA63EE5B73F093026770C26B76950 /* YZHistoryHeaderView.nib in Resources */ = {isa = PBXBuildFile; fileRef = C2112676FFF56E7F8C49DA32FB7B9ADB /* YZHistoryHeaderView.nib */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B330907D0BE7E2FDC3909B9F140C3C6E /* delete @2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE87924BAA5B71B1B0F3CC6A3E79CDAA /* delete @2x.png */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9202419C28C9518BDCAD43372A69753 /* NSArray+HYBUnicodeReadable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1993800C0B39EF2D13FEA32BED33F22C /* NSArray+HYBUnicodeReadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE17C685CDBF004B02248275D4082006 /* NSDictionary+HYBUnicodeReadable.h in Headers */ = {isa = PBXBuildFile; fileRef = 30254C2048E7E3BEBC738D17150B25DB /* NSDictionary+HYBUnicodeReadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D02185DD5B676BBD263CC9DE7AF6EA22 /* YZHistoryHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 684DB3149A9EFAA5B94588712FCC6678 /* YZHistoryHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9202419C28C9518BDCAD43372A69753 /* NSArray+HYBUnicodeReadable.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8E6529B028E73A15B7A50E59EE1930 /* NSArray+HYBUnicodeReadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE17C685CDBF004B02248275D4082006 /* NSDictionary+HYBUnicodeReadable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE6DEBCC1D204AC2B2F8FF315D6F042 /* NSDictionary+HYBUnicodeReadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02185DD5B676BBD263CC9DE7AF6EA22 /* YZHistoryHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE38D6D98281E710B10224C4B7998A60 /* YZHistoryHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DAAEFD4779211555468E849938C90906 /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 611A5E96F079FBA79CC993F9F1ED36AC /* YZHistoryHeaderView.m */; };
+		DAAEFD4779211555468E849938C90906 /* YZHistoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F0BCEB88317CE912515524F342FCA2 /* YZHistoryHeaderView.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E28B2CEEDE6B6C361D6931008EF31638 /* YZSearchCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F13DE53B38AB151C63B0E18704F7BC /* YZSearchCollectionViewLayout.m */; };
+		E28B2CEEDE6B6C361D6931008EF31638 /* YZSearchCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5445E5E939B6B7730BDE680390E5CB31 /* YZSearchCollectionViewLayout.m */; };
 		E321BF8EB704913CEEFF1B195F47AED7 /* YZBaseUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95478E7DA35FFE515D4BEC251E06355C /* YZBaseUI.bundle */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		EB65643683BAF66A50DE4DD81DC6385D /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0414C9E1642434D1A0D32D56EE43B5A0 /* Resources.bundle */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F328578EAB7A363054FE2371FC362CA6 /* YZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A72485E573B2BBA8562ACC81AA77CE /* YZConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F328578EAB7A363054FE2371FC362CA6 /* YZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B31372BA733D673727438BF3A9B73CF /* YZConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9A80911395A02C626D62E2C1E39A7A0 /* YZSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F43CE95266D18D47795F503624961FC5 /* YZSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9D1087F8C3808D9262B64FBC358C249 /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C1D8F88A880EFE9C416A60D6B76B36 /* YZSearchBar.m */; };
+		F9A80911395A02C626D62E2C1E39A7A0 /* YZSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D4617B233F463D106E181667A33907AC /* YZSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D1087F8C3808D9262B64FBC358C249 /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7250420ABAE30A8D138DE3AE24001F /* YZSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,55 +97,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0414C9E1642434D1A0D32D56EE43B5A0 /* Resources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = YZBaseUI/Resources.bundle; sourceTree = "<group>"; };
+		0341FE7BDDF7544F1E5AC2075E4E6FFB /* YZBaseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YZBaseUI-Info.plist"; sourceTree = "<group>"; };
+		04C1124573E45A9C2083BF90333BCA06 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		08F0BCEB88317CE912515524F342FCA2 /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		12C8EA9361F542CB5C9E3BFB7764763C /* Pods_YZBaseUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZBaseUI_Example.framework; path = "Pods-YZBaseUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1993800C0B39EF2D13FEA32BED33F22C /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		1924983A2F9983DBD44B2DC66843AEC8 /* YZSearchHistoryCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; name = YZSearchHistoryCell.nib; path = YZBaseUI/Assets/YZSearchHistoryCell.nib; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1FE6DEBCC1D204AC2B2F8FF315D6F042 /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		21E5B55886A027D8B2F2E96E9CF1858C /* YZBaseUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YZBaseUI.framework; path = YZBaseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		23DA851215AD015FD0938F662261CEF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		242F514CD891F10B30A6859EF931103A /* YZSearchCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchCollectionViewLayout.h; path = YZBaseUI/Classes/YZSearchCollectionViewLayout.h; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		283E0795721FD57DA11640485515676F /* YZBaseUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZBaseUI.h; path = YZBaseUI/Classes/YZBaseUI.h; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2C037EC6089EBABDBF5AC3790969B3A9 /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
-		30254C2048E7E3BEBC738D17150B25DB /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
-		36FD4D59D6883124590151388A10B08C /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		2A84097DA244BD765BA2B5A7AC3DB6B1 /* YZSearchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchController.m; path = YZBaseUI/Classes/YZSearchController.m; sourceTree = "<group>"; };
 		388AA9DC0F1A3785508DC22DDE7D98F7 /* Pods-YZBaseUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZBaseUI_Tests.modulemap"; sourceTree = "<group>"; };
 		3B8B7DF6B356F4721AC03851F6C19D75 /* Pods-YZBaseUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZBaseUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DD95A2371DF30538A5762A2F07140A0 /* Pods-YZBaseUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZBaseUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		40A72485E573B2BBA8562ACC81AA77CE /* YZConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZConstants.h; path = YZBaseUI/Classes/YZConstants.h; sourceTree = "<group>"; };
+		442CB31D632B623084FB37147DB56029 /* YZSearchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchController.h; path = YZBaseUI/Classes/YZSearchController.h; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		46717F073359A597F7005A2D2975F237 /* YZBaseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZBaseUI-dummy.m"; sourceTree = "<group>"; };
-		4A130FA3730A2D1DEDEA3AE9C0E4CFA4 /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		4924AFB2E2235A7E4C23B4356E1A743F /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		50226123B697797063DCAA1781DA137D /* ResourceBundle-YZBaseUI-YZBaseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YZBaseUI-YZBaseUI-Info.plist"; sourceTree = "<group>"; };
-		5497E9D1E546A1764B709D67B09FD35D /* YZSearchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchController.h; path = YZBaseUI/Classes/YZSearchController.h; sourceTree = "<group>"; };
-		59D7DE0007C15659CA74FC2DABA07B20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5445E5E939B6B7730BDE680390E5CB31 /* YZSearchCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchCollectionViewLayout.m; path = YZBaseUI/Classes/YZSearchCollectionViewLayout.m; sourceTree = "<group>"; };
 		5BB372D0D454E8CAA52F8FB861723442 /* Pods-YZBaseUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZBaseUI_Example.modulemap"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA5D2BD2A9D08023672EEDEBA3FC5B4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YZBaseUI/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		611A5E96F079FBA79CC993F9F1ED36AC /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZHistoryHeaderView.m; path = YZBaseUI/Classes/YZHistoryHeaderView.m; sourceTree = "<group>"; };
+		5FC837F60C39F6E82679FD285199720C /* YZBaseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZBaseUI.debug.xcconfig; sourceTree = "<group>"; };
 		63BB6C6E8C5640A904BF6E0B079D4436 /* Pods-YZBaseUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZBaseUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		64B620084DED25E53C40E20483DDF26C /* YZBaseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZBaseUI.release.xcconfig; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		684DB3149A9EFAA5B94588712FCC6678 /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
-		68D6182E8736B0234496906DA9F49A1E /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		690901667972FF1A00547178E8BBABA8 /* YZBaseUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZBaseUI.h; path = YZBaseUI/Classes/YZBaseUI.h; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6C2B5E7DB26C26D21A9A619B6520F9E7 /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchHistoryCell.m; path = YZBaseUI/Classes/YZSearchHistoryCell.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		798A9F74EF297535757E5010A73E36A1 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		85F321F9D4E661D4EC2BDC595786C1C0 /* Pods-YZBaseUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZBaseUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8B31372BA733D673727438BF3A9B73CF /* YZConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZConstants.h; path = YZBaseUI/Classes/YZConstants.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8D0ABE516B205D7C0C7F7E05E752A290 /* YZBaseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YZBaseUI-Info.plist"; sourceTree = "<group>"; };
+		8E1E8CEF5269AAA063AD1DD065852F63 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YZBaseUI/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		8E757F510EE24EB414FE2AC3B0C990B9 /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
-		93F13DE53B38AB151C63B0E18704F7BC /* YZSearchCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchCollectionViewLayout.m; path = YZBaseUI/Classes/YZSearchCollectionViewLayout.m; sourceTree = "<group>"; };
+		8EF417943164C57698E9E549C6EAB24E /* YZBaseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZBaseUI.modulemap; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		95478E7DA35FFE515D4BEC251E06355C /* YZBaseUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YZBaseUI.bundle; path = "YZBaseUI-YZBaseUI.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9553876D51193E9662B86A898A3B5FDE /* Pods-YZBaseUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZBaseUI_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -151,32 +146,43 @@
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9A8A9BBB220491A10B9D0B3A5B2C77BB /* Pods-YZBaseUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZBaseUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F7096212726774849D050397B9771A4 /* YZBaseUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZBaseUI.debug.xcconfig; sourceTree = "<group>"; };
-		A01EF106B800730013BBBCC6A224D501 /* YZSearchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchController.m; path = YZBaseUI/Classes/YZSearchController.m; sourceTree = "<group>"; };
 		A18CB06D2E167D52D9E0AD49BE3D3BF7 /* Pods-YZBaseUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZBaseUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A508AE8E97DF61601CE123C78CA15FC3 /* YZBaseUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZBaseUI.modulemap; sourceTree = "<group>"; };
-		AB44676263FF887665881FA131DA80F2 /* YZBaseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YZBaseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42F4579A7B74D96E6A6C0A69759A683 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A50BD34F721AF23E432FCE6069F4885B /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "YZBaseUI/Assets/back@2x.png"; sourceTree = "<group>"; };
+		AC7250420ABAE30A8D138DE3AE24001F /* YZSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchBar.m; path = YZBaseUI/Classes/YZSearchBar.m; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B15D3765C17390DA885651A8A3FA940F /* YZBaseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZBaseUI-prefix.pch"; sourceTree = "<group>"; };
 		B62EF0172A9470CEDEB37E2DD4C08334 /* Pods-YZBaseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZBaseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B77E65AF3058176FA56A9AE27014D8D1 /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		BBB16256E4D6F8D31EA1BAF3F42411CE /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		BEEE17F11B74E2DC178A201880F95A60 /* YZBaseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZBaseUI.release.xcconfig; sourceTree = "<group>"; };
 		C173A7A1556216483510754D33277F62 /* Pods-YZBaseUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZBaseUI_Example-umbrella.h"; sourceTree = "<group>"; };
-		C3C1D8F88A880EFE9C416A60D6B76B36 /* YZSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSearchBar.m; path = YZBaseUI/Classes/YZSearchBar.m; sourceTree = "<group>"; };
+		C2112676FFF56E7F8C49DA32FB7B9ADB /* YZHistoryHeaderView.nib */ = {isa = PBXFileReference; includeInIndex = 1; name = YZHistoryHeaderView.nib; path = YZBaseUI/Assets/YZHistoryHeaderView.nib; sourceTree = "<group>"; };
+		C5BDA878FD23AC4667200358D81CAEE9 /* YZBaseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZBaseUI-dummy.m"; sourceTree = "<group>"; };
+		C5CC27F7CC4C767E2EED620BD14CE2FC /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		C7D4E06F269D4E0EB7524ABF0595B148 /* Pods-YZBaseUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZBaseUI_Example-Info.plist"; sourceTree = "<group>"; };
+		C8B71E8E6A04C077B634C82E3CEED31C /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchHistoryCell.h; path = YZBaseUI/Classes/YZSearchHistoryCell.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CDDEF8CB3D48A2FB77762E0A79585FA5 /* YZBaseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZBaseUI-prefix.pch"; sourceTree = "<group>"; };
+		CE87924BAA5B71B1B0F3CC6A3E79CDAA /* delete @2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete @2x.png"; path = "YZBaseUI/Assets/delete @2x.png"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D0EE69A6CA2CAF25CC75FC80D9B4869A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D1D3EF444EDC60B57B6CB507B1351C72 /* Pods-YZBaseUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZBaseUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4617B233F463D106E181667A33907AC /* YZSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchBar.h; path = YZBaseUI/Classes/YZSearchBar.h; sourceTree = "<group>"; };
+		D504AFDCD471A7DCA8F3C0485B3D5774 /* ResourceBundle-YZBaseUI-YZBaseUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YZBaseUI-YZBaseUI-Info.plist"; sourceTree = "<group>"; };
+		D5FD0A978A58E4E748231FFEC97FDEB7 /* YZBaseUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YZBaseUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DE2122729C2F8C2C49B36D68859F01B6 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		DB6B4272BFA0E70CBE4D55A32798AD8D /* YZBaseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZBaseUI-umbrella.h"; sourceTree = "<group>"; };
+		E72F32C0A651E7A04A2605F1BFF32504 /* YZSearchCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchCollectionViewLayout.h; path = YZBaseUI/Classes/YZSearchCollectionViewLayout.h; sourceTree = "<group>"; };
 		ED540D5F178E044B3D48FAE306653ABF /* Pods-YZBaseUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZBaseUI_Example-dummy.m"; sourceTree = "<group>"; };
+		EE38D6D98281E710B10224C4B7998A60 /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZHistoryHeaderView.h; path = YZBaseUI/Classes/YZHistoryHeaderView.h; sourceTree = "<group>"; };
 		EFC174EB2151AA39E0436B4D3148FCC4 /* Pods-YZBaseUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZBaseUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EFE6EB3AA2150B4E27282639B9AEF004 /* Pods-YZBaseUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZBaseUI_Tests-Info.plist"; sourceTree = "<group>"; };
 		F08F3AB80A7D7DC4FA12757CEDE6605A /* Pods_YZBaseUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZBaseUI_Tests.framework; path = "Pods-YZBaseUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F252F460E50A705B241AEB740D0D8992 /* Pods-YZBaseUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZBaseUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F43CE95266D18D47795F503624961FC5 /* YZSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSearchBar.h; path = YZBaseUI/Classes/YZSearchBar.h; sourceTree = "<group>"; };
-		FB5FD5DA0EE3659FDFDE7B29E30CBEEA /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		FBE8CB430DCC22425B0F68982E93BC7F /* YZBaseUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZBaseUI-umbrella.h"; sourceTree = "<group>"; };
+		F7F686576219DF48237D921895287BE6 /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FF8E6529B028E73A15B7A50E59EE1930 /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,12 +231,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49DDF13AED3F4ECEE7622BEB07665C68 /* Resources */ = {
+		20DE42E7523AC94177C39547D20B6832 /* YZBaseUI */ = {
 			isa = PBXGroup;
 			children = (
-				0414C9E1642434D1A0D32D56EE43B5A0 /* Resources.bundle */,
+				8E1E8CEF5269AAA063AD1DD065852F63 /* ReplaceMe.m */,
+				690901667972FF1A00547178E8BBABA8 /* YZBaseUI.h */,
+				8B31372BA733D673727438BF3A9B73CF /* YZConstants.h */,
+				EE38D6D98281E710B10224C4B7998A60 /* YZHistoryHeaderView.h */,
+				08F0BCEB88317CE912515524F342FCA2 /* YZHistoryHeaderView.m */,
+				D4617B233F463D106E181667A33907AC /* YZSearchBar.h */,
+				AC7250420ABAE30A8D138DE3AE24001F /* YZSearchBar.m */,
+				E72F32C0A651E7A04A2605F1BFF32504 /* YZSearchCollectionViewLayout.h */,
+				5445E5E939B6B7730BDE680390E5CB31 /* YZSearchCollectionViewLayout.m */,
+				442CB31D632B623084FB37147DB56029 /* YZSearchController.h */,
+				2A84097DA244BD765BA2B5A7AC3DB6B1 /* YZSearchController.m */,
+				C8B71E8E6A04C077B634C82E3CEED31C /* YZSearchHistoryCell.h */,
+				4924AFB2E2235A7E4C23B4356E1A743F /* YZSearchHistoryCell.m */,
+				C1C7C4006322F31FF5A17F1D152F813E /* Category */,
+				A50AED7422E2B1AE9893966C0B8C6306 /* Pod */,
+				AF20FAFBD4D16232058F52A59D213D5B /* Resources */,
+				86788D10A2C3A778FB23DDCC2F04E917 /* Support Files */,
 			);
-			name = Resources;
+			name = YZBaseUI;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -254,42 +277,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5B322CB165A125C6171561CBF251C484 /* Category */ = {
+		57D54FAC7A3C81CAEC745F7214601E8B /* ConsoleChinese */ = {
 			isa = PBXGroup;
 			children = (
-				8E757F510EE24EB414FE2AC3B0C990B9 /* UIColor+Extension.h */,
-				36FD4D59D6883124590151388A10B08C /* UIColor+Extension.m */,
-				FB5FD5DA0EE3659FDFDE7B29E30CBEEA /* UIImage+Extension.h */,
-				4A130FA3730A2D1DEDEA3AE9C0E4CFA4 /* UIImage+Extension.m */,
-				8B286730EE78CB3BC69EF07550295F72 /* ConsoleChinese */,
+				FF8E6529B028E73A15B7A50E59EE1930 /* NSArray+HYBUnicodeReadable.h */,
+				B77E65AF3058176FA56A9AE27014D8D1 /* NSArray+HYBUnicodeReadable.m */,
+				1FE6DEBCC1D204AC2B2F8FF315D6F042 /* NSDictionary+HYBUnicodeReadable.h */,
+				798A9F74EF297535757E5010A73E36A1 /* NSDictionary+HYBUnicodeReadable.m */,
 			);
-			name = Category;
-			path = YZBaseUI/Classes/Category;
-			sourceTree = "<group>";
-		};
-		70718B3933607317F283B882CE0B4026 /* YZBaseUI */ = {
-			isa = PBXGroup;
-			children = (
-				5CA5D2BD2A9D08023672EEDEBA3FC5B4 /* ReplaceMe.m */,
-				283E0795721FD57DA11640485515676F /* YZBaseUI.h */,
-				40A72485E573B2BBA8562ACC81AA77CE /* YZConstants.h */,
-				684DB3149A9EFAA5B94588712FCC6678 /* YZHistoryHeaderView.h */,
-				611A5E96F079FBA79CC993F9F1ED36AC /* YZHistoryHeaderView.m */,
-				F43CE95266D18D47795F503624961FC5 /* YZSearchBar.h */,
-				C3C1D8F88A880EFE9C416A60D6B76B36 /* YZSearchBar.m */,
-				242F514CD891F10B30A6859EF931103A /* YZSearchCollectionViewLayout.h */,
-				93F13DE53B38AB151C63B0E18704F7BC /* YZSearchCollectionViewLayout.m */,
-				5497E9D1E546A1764B709D67B09FD35D /* YZSearchController.h */,
-				A01EF106B800730013BBBCC6A224D501 /* YZSearchController.m */,
-				2C037EC6089EBABDBF5AC3790969B3A9 /* YZSearchHistoryCell.h */,
-				6C2B5E7DB26C26D21A9A619B6520F9E7 /* YZSearchHistoryCell.m */,
-				5B322CB165A125C6171561CBF251C484 /* Category */,
-				E90BF67D7270DBEB3C750C19DDF04450 /* Pod */,
-				49DDF13AED3F4ECEE7622BEB07665C68 /* Resources */,
-				F45E246AAE2DC7E7C9A45CA3A2B42B08 /* Support Files */,
-			);
-			name = YZBaseUI;
-			path = ../..;
+			name = ConsoleChinese;
+			path = ConsoleChinese;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -303,16 +300,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8B286730EE78CB3BC69EF07550295F72 /* ConsoleChinese */ = {
+		86788D10A2C3A778FB23DDCC2F04E917 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1993800C0B39EF2D13FEA32BED33F22C /* NSArray+HYBUnicodeReadable.h */,
-				68D6182E8736B0234496906DA9F49A1E /* NSArray+HYBUnicodeReadable.m */,
-				30254C2048E7E3BEBC738D17150B25DB /* NSDictionary+HYBUnicodeReadable.h */,
-				DE2122729C2F8C2C49B36D68859F01B6 /* NSDictionary+HYBUnicodeReadable.m */,
+				D504AFDCD471A7DCA8F3C0485B3D5774 /* ResourceBundle-YZBaseUI-YZBaseUI-Info.plist */,
+				8EF417943164C57698E9E549C6EAB24E /* YZBaseUI.modulemap */,
+				C5BDA878FD23AC4667200358D81CAEE9 /* YZBaseUI-dummy.m */,
+				0341FE7BDDF7544F1E5AC2075E4E6FFB /* YZBaseUI-Info.plist */,
+				CDDEF8CB3D48A2FB77762E0A79585FA5 /* YZBaseUI-prefix.pch */,
+				DB6B4272BFA0E70CBE4D55A32798AD8D /* YZBaseUI-umbrella.h */,
+				5FC837F60C39F6E82679FD285199720C /* YZBaseUI.debug.xcconfig */,
+				BEEE17F11B74E2DC178A201880F95A60 /* YZBaseUI.release.xcconfig */,
 			);
-			name = ConsoleChinese;
-			path = ConsoleChinese;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YZBaseUI";
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -321,6 +322,27 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A50AED7422E2B1AE9893966C0B8C6306 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A42F4579A7B74D96E6A6C0A69759A683 /* LICENSE */,
+				D0EE69A6CA2CAF25CC75FC80D9B4869A /* README.md */,
+				D5FD0A978A58E4E748231FFEC97FDEB7 /* YZBaseUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF20FAFBD4D16232058F52A59D213D5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A50BD34F721AF23E432FCE6069F4885B /* back@2x.png */,
+				CE87924BAA5B71B1B0F3CC6A3E79CDAA /* delete @2x.png */,
+				C2112676FFF56E7F8C49DA32FB7B9ADB /* YZHistoryHeaderView.nib */,
+				1924983A2F9983DBD44B2DC66843AEC8 /* YZSearchHistoryCell.nib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -369,6 +391,19 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		C1C7C4006322F31FF5A17F1D152F813E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC27F7CC4C767E2EED620BD14CE2FC /* UIColor+Extension.h */,
+				F7F686576219DF48237D921895287BE6 /* UIColor+Extension.m */,
+				04C1124573E45A9C2083BF90333BCA06 /* UIImage+Extension.h */,
+				BBB16256E4D6F8D31EA1BAF3F42411CE /* UIImage+Extension.m */,
+				57D54FAC7A3C81CAEC745F7214601E8B /* ConsoleChinese */,
+			);
+			name = Category;
+			path = YZBaseUI/Classes/Category;
+			sourceTree = "<group>";
+		};
 		C3581C360A47891C11FE7261C52F0CE0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,20 +433,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E90BF67D7270DBEB3C750C19DDF04450 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				23DA851215AD015FD0938F662261CEF5 /* LICENSE */,
-				59D7DE0007C15659CA74FC2DABA07B20 /* README.md */,
-				AB44676263FF887665881FA131DA80F2 /* YZBaseUI.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F1FA3E49C1DF04464DB0D95ED83C2DF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70718B3933607317F283B882CE0B4026 /* YZBaseUI */,
+				20DE42E7523AC94177C39547D20B6832 /* YZBaseUI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -431,22 +456,6 @@
 			);
 			name = "Pods-YZBaseUI_Tests";
 			path = "Target Support Files/Pods-YZBaseUI_Tests";
-			sourceTree = "<group>";
-		};
-		F45E246AAE2DC7E7C9A45CA3A2B42B08 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				50226123B697797063DCAA1781DA137D /* ResourceBundle-YZBaseUI-YZBaseUI-Info.plist */,
-				A508AE8E97DF61601CE123C78CA15FC3 /* YZBaseUI.modulemap */,
-				46717F073359A597F7005A2D2975F237 /* YZBaseUI-dummy.m */,
-				8D0ABE516B205D7C0C7F7E05E752A290 /* YZBaseUI-Info.plist */,
-				B15D3765C17390DA885651A8A3FA940F /* YZBaseUI-prefix.pch */,
-				FBE8CB430DCC22425B0F68982E93BC7F /* YZBaseUI-umbrella.h */,
-				9F7096212726774849D050397B9771A4 /* YZBaseUI.debug.xcconfig */,
-				64B620084DED25E53C40E20483DDF26C /* YZBaseUI.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YZBaseUI";
 			sourceTree = "<group>";
 		};
 		FFB38F8EB25D5C37AF88EB255E450424 /* Pods-YZBaseUI_Example */ = {
@@ -548,7 +557,7 @@
 			buildPhases = (
 				D8E97983C96D19B6B2EE5E79303ABCAE /* Sources */,
 				C02EEC6DE11336DF7CFE0729DE497518 /* Frameworks */,
-				A198AF231FFB7E9F90FE6EC8EE584C35 /* Resources */,
+				E84B36FED347005003D4B3CC37C2A04C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -662,14 +671,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A198AF231FFB7E9F90FE6EC8EE584C35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB65643683BAF66A50DE4DD81DC6385D /* Resources.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB5DA1697880A7640DEBDA685397E253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -681,6 +682,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84B36FED347005003D4B3CC37C2A04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577B84F40A47C9D097276FAC52FE0D99 /* back@2x.png in Resources */,
+				B330907D0BE7E2FDC3909B9F140C3C6E /* delete @2x.png in Resources */,
+				974DA63EE5B73F093026770C26B76950 /* YZHistoryHeaderView.nib in Resources */,
+				8303885EE05A0F38A3D11452A6683224 /* YZSearchHistoryCell.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,7 +788,7 @@
 /* Begin XCBuildConfiguration section */
 		05E04656B096513711D8DB61DA9F33A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F7096212726774849D050397B9771A4 /* YZBaseUI.debug.xcconfig */;
+			baseConfigurationReference = 5FC837F60C39F6E82679FD285199720C /* YZBaseUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YZBaseUI";
@@ -793,7 +805,7 @@
 		};
 		0A366699F298C6E2E22A02C178814541 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64B620084DED25E53C40E20483DDF26C /* YZBaseUI.release.xcconfig */;
+			baseConfigurationReference = BEEE17F11B74E2DC178A201880F95A60 /* YZBaseUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -825,7 +837,7 @@
 		};
 		1655C43793257E2A1E9170AA5C5034D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F7096212726774849D050397B9771A4 /* YZBaseUI.debug.xcconfig */;
+			baseConfigurationReference = 5FC837F60C39F6E82679FD285199720C /* YZBaseUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -890,7 +902,7 @@
 		};
 		3F3954C8302A756FCEB33FF5263411E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64B620084DED25E53C40E20483DDF26C /* YZBaseUI.release.xcconfig */;
+			baseConfigurationReference = BEEE17F11B74E2DC178A201880F95A60 /* YZBaseUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YZBaseUI";
