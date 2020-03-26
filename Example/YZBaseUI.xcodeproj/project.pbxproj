@@ -100,17 +100,19 @@
 		B029921F242C717800CED4F6 /* YZSearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSearchHistoryCell.h; sourceTree = "<group>"; };
 		B0299220242C717800CED4F6 /* YZSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSearchController.m; sourceTree = "<group>"; };
 		B0299221242C717800CED4F6 /* YZHistoryHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHistoryHeaderView.h; sourceTree = "<group>"; };
-		B0299222242C717800CED4F6 /* YZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZConstants.h; sourceTree = "<group>"; };
 		B0299223242C717800CED4F6 /* YZSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSearchBar.h; sourceTree = "<group>"; };
 		B0299224242C717800CED4F6 /* YZSearchCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSearchCollectionViewLayout.m; sourceTree = "<group>"; };
 		B0299225242C717800CED4F6 /* YZSearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSearchHistoryCell.m; sourceTree = "<group>"; };
 		B0299226242C717800CED4F6 /* YZHistoryHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHistoryHeaderView.m; sourceTree = "<group>"; };
 		B0299227242C717800CED4F6 /* YZSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSearchController.h; sourceTree = "<group>"; };
 		B0299228242C717800CED4F6 /* YZSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSearchBar.m; sourceTree = "<group>"; };
+		B029922F242C7FC400CED4F6 /* YZSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSearch.h; sourceTree = "<group>"; };
+		B029923A242C86B600CED4F6 /* YZCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCategory.h; sourceTree = "<group>"; };
 		B04717A42429D8DD00563BDB /* YZResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZResultController.h; sourceTree = "<group>"; };
 		B04717A52429D8DD00563BDB /* YZResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZResultController.m; sourceTree = "<group>"; };
 		B0A1022724284AE500C9102C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B0A8BD8E242AF095009CE8F6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B0C96D02242C8A2800BA86FB /* YZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,10 +144,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
+				B0C96D01242C8A2800BA86FB /* YZBase */,
 				B029921D242C717800CED4F6 /* YZSearch */,
 				B014F214242B378100C01DAC /* YZCategory */,
 				B0A8BD8D242AF095009CE8F6 /* Assets */,
-				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YZBaseUI */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -255,6 +258,7 @@
 				B014F21C242B37B100C01DAC /* UIColor+Extension.m */,
 				B014F21D242B37B100C01DAC /* UIImage+Extension.h */,
 				B014F215242B37B000C01DAC /* UIImage+Extension.m */,
+				B029923A242C86B600CED4F6 /* YZCategory.h */,
 			);
 			name = YZCategory;
 			path = ../YZBaseUI/Classes/YZCategory;
@@ -290,9 +294,9 @@
 				B0299220242C717800CED4F6 /* YZSearchController.m */,
 				B0299221242C717800CED4F6 /* YZHistoryHeaderView.h */,
 				B0299226242C717800CED4F6 /* YZHistoryHeaderView.m */,
-				B0299222242C717800CED4F6 /* YZConstants.h */,
 				B0299223242C717800CED4F6 /* YZSearchBar.h */,
 				B0299228242C717800CED4F6 /* YZSearchBar.m */,
+				B029922F242C7FC400CED4F6 /* YZSearch.h */,
 			);
 			name = YZSearch;
 			path = ../YZBaseUI/Classes/YZSearch;
@@ -310,6 +314,15 @@
 			);
 			name = Assets;
 			path = ../YZBaseUI/Assets;
+			sourceTree = "<group>";
+		};
+		B0C96D01242C8A2800BA86FB /* YZBase */ = {
+			isa = PBXGroup;
+			children = (
+				B0C96D02242C8A2800BA86FB /* YZConstants.h */,
+			);
+			name = YZBase;
+			path = ../YZBaseUI/Classes/YZBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

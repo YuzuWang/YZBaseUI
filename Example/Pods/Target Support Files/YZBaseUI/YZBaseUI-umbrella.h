@@ -11,12 +11,14 @@
 #endif
 
 #import "YZBaseUI.h"
+#import "YZConstants.h"
 #import "NSArray+HYBUnicodeReadable.h"
 #import "NSDictionary+HYBUnicodeReadable.h"
 #import "UIColor+Extension.h"
 #import "UIImage+Extension.h"
-#import "YZConstants.h"
+#import "YZCategory.h"
 #import "YZHistoryHeaderView.h"
+#import "YZSearch.h"
 #import "YZSearchBar.h"
 #import "YZSearchCollectionViewLayout.h"
 #import "YZSearchController.h"

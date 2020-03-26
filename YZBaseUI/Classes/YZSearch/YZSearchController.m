@@ -7,12 +7,12 @@
 //
 
 #import "YZSearchController.h"
-#import "YZConstants.h"
 #import "YZSearchCollectionViewLayout.h"
 #import "YZSearchHistoryCell.h"
 #import "YZHistoryHeaderView.h"
 
 #import "UIColor+Extension.h"
+#import "YZConstants.h"
 
 @interface YZSearchController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate, YZHistoryHeaderViewDelegate>
 
@@ -402,7 +402,7 @@
             _backBtn = ({
                 UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
                 
-                          NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"YZBaseUI" ofType:@"bundle"]];
+                NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"YZBaseUI" ofType:@"bundle"]];
                 
                 NSString *path = [bundle pathForResource:@"back@2x.png" ofType:nil];
                 [backBtn setImage:[UIImage imageWithContentsOfFile:path]

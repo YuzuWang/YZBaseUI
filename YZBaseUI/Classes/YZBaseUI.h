@@ -9,7 +9,8 @@
 #ifndef YZBaseUI_h
 #define YZBaseUI_h
 
-#import "YZSearchController.h"
-
+#import "YZSearch.h"
+#import "YZCategory.h"
+#import "YZConstants.h"
 
 #endif /* YZBaseUI_h */

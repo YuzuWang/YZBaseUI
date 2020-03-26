@@ -2,14 +2,12 @@
 //  YZConstants.h
 //  YZBaseUI_Example
 //
-//  Created by Nansi on 2020/3/23.
+//  Created by Nansi on 2020/3/26.
 //  Copyright © 2020 niansi.no@gmail.com. All rights reserved.
 //
 
 #ifndef YZConstants_h
 #define YZConstants_h
-
-
 
 /**** UI尺寸 ****/
 //获取屏幕宽度与高度
@@ -49,5 +47,6 @@ isPhoneX;\
 #define NSUSERDEFAULT            [NSUserDefaults standardUserDefaults]
 
 #define SEARCH_HISTORY_CACHE_PATH [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"history.plist"]
+
 
 #endif /* YZConstants_h */
