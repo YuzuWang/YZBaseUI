@@ -48,16 +48,6 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:true];
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden:false];
-    [super viewWillDisappear:animated];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.extendedLayoutIncludesOpaqueBars = true;
@@ -386,11 +376,10 @@
             collection.delegate = self;
             collection.dataSource = self;
             
-            NSBundle *headerBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[YZHistoryHeaderView class]] pathForResource:@"Resources" ofType:@"bundle"]];
-            NSBundle *cellBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[YZHistoryHeaderView class]] pathForResource:@"Resources" ofType:@"bundle"]];
+            NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"YZBaseUI" ofType:@"bundle"]];
 
-            [collection registerNib:[UINib nibWithNibName:@"YZSearchHistoryCell" bundle:cellBundle] forCellWithReuseIdentifier:@"cell"];
-            [collection registerNib:[UINib nibWithNibName:@"YZHistoryHeaderView" bundle:headerBundle] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
+            [collection registerNib:[UINib nibWithNibName:@"YZSearchHistoryCell" bundle:bundle] forCellWithReuseIdentifier:@"cell"];
+            [collection registerNib:[UINib nibWithNibName:@"YZHistoryHeaderView" bundle:bundle] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
             
             if (@available(iOS 11.0, *)) {
                 collection.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
@@ -412,7 +401,11 @@
         }else {
             _backBtn = ({
                 UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-                [backBtn setImage:[UIImage imageNamed:@"back.png"]
+                
+                          NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"YZBaseUI" ofType:@"bundle"]];
+                
+                NSString *path = [bundle pathForResource:@"back@2x.png" ofType:nil];
+                [backBtn setImage:[UIImage imageWithContentsOfFile:path]
                          forState:UIControlStateNormal];
                 
                 [backBtn setImageEdgeInsets:UIEdgeInsetsMake(5, 6, 5, 13)];

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YZBaseUI'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = '自用的部分控件'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,25 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YZBaseUI/Classes/**/*'
+#  s.source_files = 'YZBaseUI/Classes/**/*'
   
-   s.resource_bundles = {
+  s.resource_bundles = {
      'YZBaseUI' => ['YZBaseUI/Assets/*.png','YZBaseUI/Assets/*.nib']
-   }
+  }
+  
+  
+  s.subspec 'YZCategory' do |search|
+      search.source_files = 'YZBaseUI/Classes/Category/**/*';
+   
+  end
+  
+  
+  s.subspec 'YZSearch' do |search|
+      search.source_files = 'YZBaseUI/Classes/YZSearch/**/*';
+   
+  end
+  
+  
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
