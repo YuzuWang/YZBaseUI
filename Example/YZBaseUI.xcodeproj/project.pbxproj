@@ -143,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				B029921D242C717800CED4F6 /* YZSearch */,
-				B014F214242B378100C01DAC /* Category */,
+				B014F214242B378100C01DAC /* YZCategory */,
 				B0A8BD8D242AF095009CE8F6 /* Assets */,
 				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
@@ -247,7 +247,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B014F214242B378100C01DAC /* Category */ = {
+		B014F214242B378100C01DAC /* YZCategory */ = {
 			isa = PBXGroup;
 			children = (
 				B014F217242B37B000C01DAC /* ConsoleChinese */,
@@ -256,8 +256,8 @@
 				B014F21D242B37B100C01DAC /* UIImage+Extension.h */,
 				B014F215242B37B000C01DAC /* UIImage+Extension.m */,
 			);
-			name = Category;
-			path = ../YZBaseUI/Classes/Category;
+			name = YZCategory;
+			path = ../YZBaseUI/Classes/YZCategory;
 			sourceTree = "<group>";
 		};
 		B014F217242B37B000C01DAC /* ConsoleChinese */ = {
@@ -283,15 +283,15 @@
 			isa = PBXGroup;
 			children = (
 				B029921E242C717800CED4F6 /* YZSearchCollectionViewLayout.h */,
+				B0299224242C717800CED4F6 /* YZSearchCollectionViewLayout.m */,
 				B029921F242C717800CED4F6 /* YZSearchHistoryCell.h */,
+				B0299225242C717800CED4F6 /* YZSearchHistoryCell.m */,
+				B0299227242C717800CED4F6 /* YZSearchController.h */,
 				B0299220242C717800CED4F6 /* YZSearchController.m */,
 				B0299221242C717800CED4F6 /* YZHistoryHeaderView.h */,
+				B0299226242C717800CED4F6 /* YZHistoryHeaderView.m */,
 				B0299222242C717800CED4F6 /* YZConstants.h */,
 				B0299223242C717800CED4F6 /* YZSearchBar.h */,
-				B0299224242C717800CED4F6 /* YZSearchCollectionViewLayout.m */,
-				B0299225242C717800CED4F6 /* YZSearchHistoryCell.m */,
-				B0299226242C717800CED4F6 /* YZHistoryHeaderView.m */,
-				B0299227242C717800CED4F6 /* YZSearchController.h */,
 				B0299228242C717800CED4F6 /* YZSearchBar.m */,
 			);
 			name = YZSearch;

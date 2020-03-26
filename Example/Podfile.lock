@@ -4,7 +4,12 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YZBaseUI (0.2.3)
+  - YZBaseUI (0.2.5):
+    - YZBaseUI/YZCategory (= 0.2.5)
+    - YZBaseUI/YZSearch (= 0.2.5)
+  - YZBaseUI/YZCategory (0.2.5)
+  - YZBaseUI/YZSearch (0.2.5):
+    - YZBaseUI/YZCategory
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +25,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YZBaseUI: 76b7e9988e529c0f9303ed13407114aeba3f5a55
+  YZBaseUI: a8414119717fc2c40128a94fc3013e27585117fd
 
-PODFILE CHECKSUM: fee5b4e4d95f9b87174172314599f457db239238
+PODFILE CHECKSUM: 93a250ace40e93501a551494fd5ab3773d94e2d0
 
 COCOAPODS: 1.9.1
