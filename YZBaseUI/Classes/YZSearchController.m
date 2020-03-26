@@ -386,8 +386,11 @@
             collection.delegate = self;
             collection.dataSource = self;
             
-            [collection registerNib:[UINib nibWithNibName:@"YZSearchHistoryCell" bundle:nil] forCellWithReuseIdentifier:@"cell"];
-            [collection registerNib:[UINib nibWithNibName:@"YZHistoryHeaderView" bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
+            NSBundle *headerBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[YZHistoryHeaderView class]] pathForResource:@"Resources" ofType:@"bundle"]];
+            NSBundle *cellBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[YZHistoryHeaderView class]] pathForResource:@"Resources" ofType:@"bundle"]];
+
+            [collection registerNib:[UINib nibWithNibName:@"YZSearchHistoryCell" bundle:cellBundle] forCellWithReuseIdentifier:@"cell"];
+            [collection registerNib:[UINib nibWithNibName:@"YZHistoryHeaderView" bundle:headerBundle] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
             
             if (@available(iOS 11.0, *)) {
                 collection.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
