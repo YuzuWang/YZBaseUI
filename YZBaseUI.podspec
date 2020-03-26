@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YZBaseUI'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = '自用的部分控件'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'YZBaseUI/Classes/*.h'
   
-  s.resource_bundles = {
-     'YZBaseUI' => ['YZBaseUI/Assets/*.png','YZBaseUI/Assets/*.nib']
-  }
-  
-  
   s.subspec 'YZBase' do |base|
       base.source_files = 'YZBaseUI/Classes/YZBase/**/*';
    
@@ -52,7 +47,10 @@ Pod::Spec.new do |s|
       search.source_files = 'YZBaseUI/Classes/YZSearch/**/*';
       search.dependency  'YZBaseUI/YZCategory';
       search.dependency  'YZBaseUI/YZBase';
-
+      
+      search.resource_bundles = {
+         'YZBaseUI' => ['YZBaseUI/Assets/*.png','YZBaseUI/Assets/*.nib']
+      }
   end
   
   
