@@ -54,6 +54,29 @@
     [self initView];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    if ([self.delegate respondsToSelector:@selector(searchControllerWillAppear:)]) {
+        [self.delegate searchControllerWillAppear:self];
+    }
+    
+    [super viewWillAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    if ([self.delegate respondsToSelector:@selector(searchControllerWillDisappear:)]) {
+        [self.delegate searchControllerWillDisappear:self];
+    }
+    [super viewWillDisappear:animated];
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    if ([self.delegate respondsToSelector:@selector(searchControllerDidDisappear:)]) {
+        [self.delegate searchControllerDidDisappear:self];
+    }
+    [super viewDidDisappear:animated];
+}
+
 #pragma mark - UI
 - (void)initView {
     

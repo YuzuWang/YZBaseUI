@@ -23,6 +23,10 @@ typedef NS_ENUM(NSUInteger, YZSearchType) {
 /// 开始搜索
 -(void)searchCotroller:(YZSearchController *_Nullable)searchController beginSearch:(NSString *_Nonnull)searchText withResultController:(UIViewController *_Nullable)resultController;
 
+-(void)searchControllerWillAppear:(YZSearchController *_Nullable)controller;
+-(void)searchControllerWillDisappear:(YZSearchController *_Nullable)controller;
+-(void)searchControllerDidDisappear:(YZSearchController *_Nullable)controller;
+
 /// 自定义返回按钮
 -(UIView *_Nullable)customBackButton;
 

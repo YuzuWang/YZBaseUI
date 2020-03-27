@@ -9,7 +9,13 @@
 #import "YZViewController.h"
 #import "YZResultController.h"
 
-@interface YZViewController ()<YZSearchControllerDelegate, UIGestureRecognizerDelegate>
+#import "YZSearchController+YZSearch.h"
+
+@interface YZViewController ()<YZSearchControllerDelegate, UIGestureRecognizerDelegate, UITableViewDelegate, UITableViewDataSource>
+
+@property(nonatomic, strong) UITableView *tableView;
+
+@property(nonatomic, copy) NSArray *titleArr;
 
 @end
 
@@ -22,30 +28,103 @@
     
     self.navigationController.interactivePopGestureRecognizer.delegate = self;
     
+    _titleArr = @[@"搜索"];
+    
+    [self.view addSubview:self.tableView];
 }
 
-- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _titleArr.count;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 44;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifier = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    cell.textLabel.text = _titleArr[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    YZResultController *resultVC = [[YZResultController alloc] init];
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
     
-    YZSearchController *controller = [[YZSearchController alloc] initWithResultViewController:resultVC];
-    controller.delegate = self;
-    controller.modalPresentationStyle= UIModalPresentationFullScreen;
-    controller.hotKeys = [NSMutableArray arrayWithArray: @[@"洗漱用品",@"生活用品",@"科技产品"]];
-//    [self.navigationController pushViewController:controller animated:NO];
-    [self presentViewController:controller animated:false completion:nil];
+    switch (indexPath.row) {
+        case 0:
+        {
+            [self search];
+        }
+            break;
+            
+        default:
+            break;
+    }
+    
 }
 
 
 - (void)searchCotroller:(YZSearchController *)searchController beginSearch:(NSString *)searchText withResultController:(UIViewController *)resultController {
-    
     NSLog(@"搜索的关键字是 ====> %@", searchText);
 }
 
-//- (UIView *)customBackButton {
-//    UIView *view = [[UIView alloc] init];
-//    view.backgroundColor = [UIColor blueColor];
-//    return view;
-//}
+- (void)searchControllerWillAppear:(YZSearchController *)controller{
+    [controller.navigationController setNavigationBarHidden:true animated:true];
+}
+
+- (void)searchControllerWillDisappear:(YZSearchController *)controller {
+ [controller.navigationController setNavigationBarHidden:false animated:true];
+}
+
+
+#pragma mark - Search
+
+- (void)search {
+    YZResultController *resultVC = [[YZResultController alloc] init];
+      
+      YZSearchController *controller = [[YZSearchController alloc] initWithResultViewController:resultVC];
+      controller.delegate = self;
+      controller.modalPresentationStyle= UIModalPresentationFullScreen;
+      controller.hotKeys = [NSMutableArray arrayWithArray: @[@"洗漱用品",@"生活用品",@"科技产品"]];
+      [self.navigationController pushViewController:controller animated:NO];
+}
+
+
+- (UITableView *)tableView{
+    
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREENH_HEIGHT) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.backgroundColor = [UIColor clearColor];
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.separatorColor = [UIColor groupTableViewBackgroundColor];
+        _tableView.separatorInset = UIEdgeInsetsZero;
+        
+        _tableView.contentInset = UIEdgeInsetsMake(kSafeAreaTopHeight, 0, kSafeAreaBottomHeight, 0);
+        [self.tableView setScrollIndicatorInsets:UIEdgeInsetsMake(0, 0, kSafeAreaBottomHeight, 0)];
+        _tableView.tableFooterView = [UIView new];
+        
+        _tableView.estimatedRowHeight = 0;
+        _tableView.estimatedSectionHeaderHeight = 0;
+        _tableView.estimatedSectionFooterHeight = 0;
+        
+        if (@available(iOS 11.0, *)) {
+            self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }else {
+            self.automaticallyAdjustsScrollViewInsets = NO;
+        }
+        
+    }
+    return _tableView;
+}
+
+
+
 
 @end

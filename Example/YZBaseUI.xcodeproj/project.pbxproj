@@ -37,6 +37,7 @@
 		B029922D242C717900CED4F6 /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0299228242C717800CED4F6 /* YZSearchBar.m */; };
 		B04717A62429D8DD00563BDB /* YZResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A52429D8DD00563BDB /* YZResultController.m */; };
 		B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B0A8BD8E242AF095009CE8F6 /* .gitkeep */; };
+		B0C96D05242D8C1100BA86FB /* YZSearchController+YZSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C96D04242D8C1100BA86FB /* YZSearchController+YZSearch.m */; };
 		D3294CE5EDC4CE598E9B4E1D /* Pods_YZBaseUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */; };
 		D392F52C33ECAF12A5E77DCD /* Pods_YZBaseUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C8ACFE2334E20D1D2A343 /* Pods_YZBaseUI_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -113,6 +114,8 @@
 		B0A1022724284AE500C9102C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B0A8BD8E242AF095009CE8F6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B0C96D02242C8A2800BA86FB /* YZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZConstants.h; sourceTree = "<group>"; };
+		B0C96D03242D8C1100BA86FB /* YZSearchController+YZSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZSearchController+YZSearch.h"; sourceTree = "<group>"; };
+		B0C96D04242D8C1100BA86FB /* YZSearchController+YZSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YZSearchController+YZSearch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YZViewController.h */,
 				6003F5A6195388D20070C39A /* YZViewController.m */,
+				B0C96D03242D8C1100BA86FB /* YZSearchController+YZSearch.h */,
+				B0C96D04242D8C1100BA86FB /* YZSearchController+YZSearch.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -531,6 +536,7 @@
 				B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */,
 				B04717A62429D8DD00563BDB /* YZResultController.m in Sources */,
 				B029922A242C717900CED4F6 /* YZSearchCollectionViewLayout.m in Sources */,
+				B0C96D05242D8C1100BA86FB /* YZSearchController+YZSearch.m in Sources */,
 				6003F5A7195388D20070C39A /* YZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
