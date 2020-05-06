@@ -43,7 +43,7 @@
 
 -(void)play {
     if (!self.path || self.path.length == 0) {
-        assert(@"视频路径不能为空");
+        NSLog(@"视频路径不能为空");
         return;
     }
     [self.player play];
@@ -85,7 +85,11 @@
         _player = [AVPlayer playerWithPlayerItem:playItem];
         _player.actionAtItemEnd = AVPlayerActionAtItemEndNone;// 永不暂停
         _player.muted = true;
-        _player.automaticallyWaitsToMinimizeStalling = false;
+        if (@available(iOS 10.0, *)) {
+            _player.automaticallyWaitsToMinimizeStalling = false;
+        } else {
+            // Fallback on earlier versions
+        }
         
         // 3 将图层嵌入到0层
         AVPlayerLayer *layer = [AVPlayerLayer playerLayerWithPlayer:_player];
