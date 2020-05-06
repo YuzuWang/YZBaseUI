@@ -1,16 +1,36 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YZBaseUI (0.2.6):
-    - YZBaseUI/YZBase (= 0.2.6)
-    - YZBaseUI/YZCategory (= 0.2.6)
-    - YZBaseUI/YZSearch (= 0.2.6)
-  - YZBaseUI/YZBase (0.2.6)
-  - YZBaseUI/YZCategory (0.2.6)
-  - YZBaseUI/YZSearch (0.2.6):
+  - YZBaseUI (0.2.7):
+    - YZBaseUI/YZBase (= 0.2.7)
+    - YZBaseUI/YZCategory (= 0.2.7)
+    - YZBaseUI/YZComponents (= 0.2.7)
+    - YZBaseUI/YZNetwork (= 0.2.7)
+    - YZBaseUI/YZSearch (= 0.2.7)
+  - YZBaseUI/YZBase (0.2.7)
+  - YZBaseUI/YZCategory (0.2.7)
+  - YZBaseUI/YZComponents (0.2.7)
+  - YZBaseUI/YZNetwork (0.2.7):
+    - AFNetworking (~> 4.0.1)
+  - YZBaseUI/YZSearch (0.2.7):
     - YZBaseUI/YZBase
     - YZBaseUI/YZCategory
 
@@ -20,6 +40,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -27,8 +48,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YZBaseUI: 5ac9f5c8c1c87f3b3f532bb42ba158a6b80d5a1e
+  YZBaseUI: 81697bbcae94e7ab663e7bbf65259eb2a3b0c6e9
 
 PODFILE CHECKSUM: 93a250ace40e93501a551494fd5ab3773d94e2d0
 

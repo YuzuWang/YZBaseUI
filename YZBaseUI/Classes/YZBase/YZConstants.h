@@ -24,6 +24,10 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 isPhoneX;\
 })
 
+
+#define YZLog(...) printf("function:%s line:%d content:%s\n\n",__FUNCTION__, __LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+
+
 // 状态栏高度
 #define kStatusBarHeight        (IPHONE_X ? 44.f : 20.f)
 

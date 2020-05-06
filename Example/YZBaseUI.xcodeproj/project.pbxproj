@@ -22,6 +22,18 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B01228DC2462BED40082E67A /* SJNetworkCacheInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228C32462BED40082E67A /* SJNetworkCacheInfo.m */; };
+		B01228DD2462BED40082E67A /* SJNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228C62462BED40082E67A /* SJNetworkManager.m */; };
+		B01228DE2462BED40082E67A /* SJNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228C72462BED40082E67A /* SJNetworkConfig.m */; };
+		B01228DF2462BED40082E67A /* SJNetworkDownloadResumeDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228C82462BED40082E67A /* SJNetworkDownloadResumeDataInfo.m */; };
+		B01228E02462BED40082E67A /* SJNetworkDownloadEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228C92462BED40082E67A /* SJNetworkDownloadEngine.m */; };
+		B01228E12462BED40082E67A /* SJNetworkCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228CA2462BED40082E67A /* SJNetworkCacheManager.m */; };
+		B01228E22462BED40082E67A /* SJNetworkRequestPool.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228CB2462BED40082E67A /* SJNetworkRequestPool.m */; };
+		B01228E32462BED40082E67A /* SJNetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228CC2462BED40082E67A /* SJNetworkUtils.m */; };
+		B01228E42462BED40082E67A /* SJNetworkBaseEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228CD2462BED40082E67A /* SJNetworkBaseEngine.m */; };
+		B01228E52462BED40082E67A /* SJNetworkUploadEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228CE2462BED40082E67A /* SJNetworkUploadEngine.m */; };
+		B01228E62462BED40082E67A /* SJNetworkRequestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228D22462BED40082E67A /* SJNetworkRequestEngine.m */; };
+		B01228E72462BED40082E67A /* SJNetworkRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B01228D42462BED40082E67A /* SJNetworkRequestModel.m */; };
 		B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F215242B37B000C01DAC /* UIImage+Extension.m */; };
 		B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */; };
 		B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = B014F219242B37B000C01DAC /* NSDictionary+HYBUnicodeReadable.m */; };
@@ -37,6 +49,9 @@
 		B029922D242C717900CED4F6 /* YZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B0299228242C717800CED4F6 /* YZSearchBar.m */; };
 		B04717A62429D8DD00563BDB /* YZResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04717A52429D8DD00563BDB /* YZResultController.m */; };
 		B0A8BD90242AF095009CE8F6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B0A8BD8E242AF095009CE8F6 /* .gitkeep */; };
+		B0AA5938242DDB53006248F9 /* YZVideoBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA5937242DDB53006248F9 /* YZVideoBgView.m */; };
+		B0AA593D242DDEF5006248F9 /* YZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AA593C242DDEF5006248F9 /* YZVideoViewController.m */; };
+		B0AA5941242DF025006248F9 /* resource.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B0AA5940242DF025006248F9 /* resource.mp4 */; };
 		B0C96D05242D8C1100BA86FB /* YZSearchController+YZSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C96D04242D8C1100BA86FB /* YZSearchController+YZSearch.m */; };
 		D3294CE5EDC4CE598E9B4E1D /* Pods_YZBaseUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */; };
 		D392F52C33ECAF12A5E77DCD /* Pods_YZBaseUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C8ACFE2334E20D1D2A343 /* Pods_YZBaseUI_Tests.framework */; };
@@ -84,6 +99,33 @@
 		9B5437CC777A3E127818EC0D /* Pods_YZBaseUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZBaseUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4250D9C66C81FCBBBC40581 /* Pods-YZBaseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZBaseUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-YZBaseUI_Tests/Pods-YZBaseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B00D4F7B2428603500E3D0DA /* YZBaseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YZBaseUI.h; path = ../YZBaseUI/Classes/YZBaseUI.h; sourceTree = "<group>"; };
+		B01228C12462BED40082E67A /* YZNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNetwork.h; sourceTree = "<group>"; };
+		B01228C22462BED40082E67A /* SJNetworkUploadEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkUploadEngine.h; sourceTree = "<group>"; };
+		B01228C32462BED40082E67A /* SJNetworkCacheInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkCacheInfo.m; sourceTree = "<group>"; };
+		B01228C42462BED40082E67A /* SJNetworkRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkRequestModel.h; sourceTree = "<group>"; };
+		B01228C52462BED40082E67A /* SJNetworkRequestEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkRequestEngine.h; sourceTree = "<group>"; };
+		B01228C62462BED40082E67A /* SJNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkManager.m; sourceTree = "<group>"; };
+		B01228C72462BED40082E67A /* SJNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkConfig.m; sourceTree = "<group>"; };
+		B01228C82462BED40082E67A /* SJNetworkDownloadResumeDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkDownloadResumeDataInfo.m; sourceTree = "<group>"; };
+		B01228C92462BED40082E67A /* SJNetworkDownloadEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkDownloadEngine.m; sourceTree = "<group>"; };
+		B01228CA2462BED40082E67A /* SJNetworkCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkCacheManager.m; sourceTree = "<group>"; };
+		B01228CB2462BED40082E67A /* SJNetworkRequestPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkRequestPool.m; sourceTree = "<group>"; };
+		B01228CC2462BED40082E67A /* SJNetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkUtils.m; sourceTree = "<group>"; };
+		B01228CD2462BED40082E67A /* SJNetworkBaseEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkBaseEngine.m; sourceTree = "<group>"; };
+		B01228CE2462BED40082E67A /* SJNetworkUploadEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkUploadEngine.m; sourceTree = "<group>"; };
+		B01228CF2462BED40082E67A /* SJNetworkCacheInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkCacheInfo.h; sourceTree = "<group>"; };
+		B01228D02462BED40082E67A /* SJNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkManager.h; sourceTree = "<group>"; };
+		B01228D12462BED40082E67A /* SJNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkConfig.h; sourceTree = "<group>"; };
+		B01228D22462BED40082E67A /* SJNetworkRequestEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkRequestEngine.m; sourceTree = "<group>"; };
+		B01228D32462BED40082E67A /* SJNetworkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkHeader.h; sourceTree = "<group>"; };
+		B01228D42462BED40082E67A /* SJNetworkRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJNetworkRequestModel.m; sourceTree = "<group>"; };
+		B01228D52462BED40082E67A /* SJNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkProtocol.h; sourceTree = "<group>"; };
+		B01228D62462BED40082E67A /* SJNetworkBaseEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkBaseEngine.h; sourceTree = "<group>"; };
+		B01228D72462BED40082E67A /* SJNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkUtils.h; sourceTree = "<group>"; };
+		B01228D82462BED40082E67A /* SJNetworkRequestPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkRequestPool.h; sourceTree = "<group>"; };
+		B01228D92462BED40082E67A /* SJNetworkCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkCacheManager.h; sourceTree = "<group>"; };
+		B01228DA2462BED40082E67A /* SJNetworkDownloadResumeDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkDownloadResumeDataInfo.h; sourceTree = "<group>"; };
+		B01228DB2462BED40082E67A /* SJNetworkDownloadEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJNetworkDownloadEngine.h; sourceTree = "<group>"; };
 		B014F215242B37B000C01DAC /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		B014F216242B37B000C01DAC /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		B014F218242B37B000C01DAC /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
@@ -113,6 +155,11 @@
 		B04717A52429D8DD00563BDB /* YZResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZResultController.m; sourceTree = "<group>"; };
 		B0A1022724284AE500C9102C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B0A8BD8E242AF095009CE8F6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B0AA5936242DDB53006248F9 /* YZVideoBgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZVideoBgView.h; sourceTree = "<group>"; };
+		B0AA5937242DDB53006248F9 /* YZVideoBgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZVideoBgView.m; sourceTree = "<group>"; };
+		B0AA593B242DDEF5006248F9 /* YZVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZVideoViewController.h; sourceTree = "<group>"; };
+		B0AA593C242DDEF5006248F9 /* YZVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZVideoViewController.m; sourceTree = "<group>"; };
+		B0AA5940242DF025006248F9 /* resource.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = resource.mp4; sourceTree = "<group>"; };
 		B0C96D02242C8A2800BA86FB /* YZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZConstants.h; sourceTree = "<group>"; };
 		B0C96D03242D8C1100BA86FB /* YZSearchController+YZSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZSearchController+YZSearch.h"; sourceTree = "<group>"; };
 		B0C96D04242D8C1100BA86FB /* YZSearchController+YZSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YZSearchController+YZSearch.m"; sourceTree = "<group>"; };
@@ -148,7 +195,9 @@
 			isa = PBXGroup;
 			children = (
 				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
+				B01228C02462BED40082E67A /* YZNetwork */,
 				B0C96D01242C8A2800BA86FB /* YZBase */,
+				B0C96D08242DD07000BA86FB /* YZComponents */,
 				B029921D242C717800CED4F6 /* YZSearch */,
 				B014F214242B378100C01DAC /* YZCategory */,
 				B0A8BD8D242AF095009CE8F6 /* Assets */,
@@ -186,6 +235,7 @@
 		6003F593195388D20070C39A /* Example for YZBaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				B0AA5940242DF025006248F9 /* resource.mp4 */,
 				6003F59C195388D20070C39A /* YZAppDelegate.h */,
 				6003F59D195388D20070C39A /* YZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -199,6 +249,8 @@
 				B0A1022724284AE500C9102C /* PrefixHeader.pch */,
 				B04717A42429D8DD00563BDB /* YZResultController.h */,
 				B04717A52429D8DD00563BDB /* YZResultController.m */,
+				B0AA593B242DDEF5006248F9 /* YZVideoViewController.h */,
+				B0AA593C242DDEF5006248F9 /* YZVideoViewController.m */,
 			);
 			name = "Example for YZBaseUI";
 			path = YZBaseUI;
@@ -253,6 +305,41 @@
 				A4250D9C66C81FCBBBC40581 /* Pods-YZBaseUI_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B01228C02462BED40082E67A /* YZNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B01228C12462BED40082E67A /* YZNetwork.h */,
+				B01228C22462BED40082E67A /* SJNetworkUploadEngine.h */,
+				B01228C32462BED40082E67A /* SJNetworkCacheInfo.m */,
+				B01228C42462BED40082E67A /* SJNetworkRequestModel.h */,
+				B01228C52462BED40082E67A /* SJNetworkRequestEngine.h */,
+				B01228C62462BED40082E67A /* SJNetworkManager.m */,
+				B01228C72462BED40082E67A /* SJNetworkConfig.m */,
+				B01228C82462BED40082E67A /* SJNetworkDownloadResumeDataInfo.m */,
+				B01228C92462BED40082E67A /* SJNetworkDownloadEngine.m */,
+				B01228CA2462BED40082E67A /* SJNetworkCacheManager.m */,
+				B01228CB2462BED40082E67A /* SJNetworkRequestPool.m */,
+				B01228CC2462BED40082E67A /* SJNetworkUtils.m */,
+				B01228CD2462BED40082E67A /* SJNetworkBaseEngine.m */,
+				B01228CE2462BED40082E67A /* SJNetworkUploadEngine.m */,
+				B01228CF2462BED40082E67A /* SJNetworkCacheInfo.h */,
+				B01228D02462BED40082E67A /* SJNetworkManager.h */,
+				B01228D12462BED40082E67A /* SJNetworkConfig.h */,
+				B01228D22462BED40082E67A /* SJNetworkRequestEngine.m */,
+				B01228D32462BED40082E67A /* SJNetworkHeader.h */,
+				B01228D42462BED40082E67A /* SJNetworkRequestModel.m */,
+				B01228D52462BED40082E67A /* SJNetworkProtocol.h */,
+				B01228D62462BED40082E67A /* SJNetworkBaseEngine.h */,
+				B01228D72462BED40082E67A /* SJNetworkUtils.h */,
+				B01228D82462BED40082E67A /* SJNetworkRequestPool.h */,
+				B01228D92462BED40082E67A /* SJNetworkCacheManager.h */,
+				B01228DA2462BED40082E67A /* SJNetworkDownloadResumeDataInfo.h */,
+				B01228DB2462BED40082E67A /* SJNetworkDownloadEngine.h */,
+			);
+			name = YZNetwork;
+			path = ../YZBaseUI/Classes/YZNetwork;
 			sourceTree = "<group>";
 		};
 		B014F214242B378100C01DAC /* YZCategory */ = {
@@ -328,6 +415,16 @@
 			);
 			name = YZBase;
 			path = ../YZBaseUI/Classes/YZBase;
+			sourceTree = "<group>";
+		};
+		B0C96D08242DD07000BA86FB /* YZComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA5936242DDB53006248F9 /* YZVideoBgView.h */,
+				B0AA5937242DDB53006248F9 /* YZVideoBgView.m */,
+			);
+			name = YZComponents;
+			path = ../YZBaseUI/Classes/YZComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +513,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0299219242C445F00CED4F6 /* delete @2x.png in Resources */,
+				B0AA5941242DF025006248F9 /* resource.mp4 in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -463,10 +561,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YZBaseUI_Example/Pods-YZBaseUI_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/YZBaseUI/YZBaseUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YZBaseUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,14 +627,28 @@
 			files = (
 				B029922B242C717900CED4F6 /* YZSearchHistoryCell.m in Sources */,
 				B029922C242C717900CED4F6 /* YZHistoryHeaderView.m in Sources */,
+				B01228E52462BED40082E67A /* SJNetworkUploadEngine.m in Sources */,
+				B01228DF2462BED40082E67A /* SJNetworkDownloadResumeDataInfo.m in Sources */,
+				B01228E22462BED40082E67A /* SJNetworkRequestPool.m in Sources */,
 				B014F21F242B37B100C01DAC /* NSArray+HYBUnicodeReadable.m in Sources */,
 				6003F59E195388D20070C39A /* YZAppDelegate.m in Sources */,
+				B01228E62462BED40082E67A /* SJNetworkRequestEngine.m in Sources */,
+				B0AA5938242DDB53006248F9 /* YZVideoBgView.m in Sources */,
 				B0299229242C717900CED4F6 /* YZSearchController.m in Sources */,
 				B014F220242B37B100C01DAC /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				B01228DD2462BED40082E67A /* SJNetworkManager.m in Sources */,
 				B029922D242C717900CED4F6 /* YZSearchBar.m in Sources */,
+				B01228E32462BED40082E67A /* SJNetworkUtils.m in Sources */,
+				B01228E12462BED40082E67A /* SJNetworkCacheManager.m in Sources */,
+				B01228E02462BED40082E67A /* SJNetworkDownloadEngine.m in Sources */,
+				B01228DC2462BED40082E67A /* SJNetworkCacheInfo.m in Sources */,
 				B014F221242B37B100C01DAC /* UIColor+Extension.m in Sources */,
 				B014F21E242B37B100C01DAC /* UIImage+Extension.m in Sources */,
 				B04717A62429D8DD00563BDB /* YZResultController.m in Sources */,
+				B0AA593D242DDEF5006248F9 /* YZVideoViewController.m in Sources */,
+				B01228E42462BED40082E67A /* SJNetworkBaseEngine.m in Sources */,
+				B01228DE2462BED40082E67A /* SJNetworkConfig.m in Sources */,
+				B01228E72462BED40082E67A /* SJNetworkRequestModel.m in Sources */,
 				B029922A242C717900CED4F6 /* YZSearchCollectionViewLayout.m in Sources */,
 				B0C96D05242D8C1100BA86FB /* YZSearchController+YZSearch.m in Sources */,
 				6003F5A7195388D20070C39A /* YZViewController.m in Sources */,

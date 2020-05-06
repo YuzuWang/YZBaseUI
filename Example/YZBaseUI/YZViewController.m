@@ -8,8 +8,9 @@
 
 #import "YZViewController.h"
 #import "YZResultController.h"
-
 #import "YZSearchController+YZSearch.h"
+
+#import "YZVideoViewController.h"
 
 @interface YZViewController ()<YZSearchControllerDelegate, UIGestureRecognizerDelegate, UITableViewDelegate, UITableViewDataSource>
 
@@ -28,7 +29,7 @@
     
     self.navigationController.interactivePopGestureRecognizer.delegate = self;
     
-    _titleArr = @[@"搜索"];
+    _titleArr = @[@"搜索", @"弹框"];
     
     [self.view addSubview:self.tableView];
 }
@@ -61,7 +62,11 @@
             [self search];
         }
             break;
-            
+        case 1: {
+            YZVideoViewController *videoVC = [[YZVideoViewController alloc] init];
+            [self.navigationController pushViewController:videoVC animated:false];
+        }
+            break;
         default:
             break;
     }

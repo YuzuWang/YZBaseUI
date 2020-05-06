@@ -32,17 +32,25 @@ Pod::Spec.new do |s|
 
   s.source_files = 'YZBaseUI/Classes/*.h'
   
+  # 一些基础库
   s.subspec 'YZBase' do |base|
       base.source_files = 'YZBaseUI/Classes/YZBase/**/*';
-   
   end
   
+  # 来自 SJNetwork
+  # https://github.com/knightsj/SJNetwork
+  s.subspec 'YZNetwork' do |net|
+       net.source_files = 'YZBaseUI/Classes/YZNetwork/**/*';
+       net.dependency  'AFNetworking', '~> 4.0.1'
+  end
+  
+  # 常用类别
   s.subspec 'YZCategory' do |category|
       category.source_files = 'YZBaseUI/Classes/YZCategory/**/*';
    
   end
   
-  
+  # 搜索
   s.subspec 'YZSearch' do |search|
       search.source_files = 'YZBaseUI/Classes/YZSearch/**/*';
       search.dependency  'YZBaseUI/YZCategory';
@@ -54,6 +62,11 @@ Pod::Spec.new do |s|
   end
   
   
+  # 对 QMUI 等三方的一些封装
+  s.subspec 'YZComponents' do |c|
+      c.source_files = 'YZBaseUI/Classes/YZComponents/**/*';
+        
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
