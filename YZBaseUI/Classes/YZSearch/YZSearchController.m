@@ -43,6 +43,7 @@
     self = [super init];
     if (self) {
         [self defaultSetting];
+        self.delegate = childController;
         _childController = childController;
     }
     return self;

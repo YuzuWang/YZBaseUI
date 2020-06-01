@@ -194,6 +194,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B01228EC2462E2A20082E67A /* New Group */,
 				B00D4F7B2428603500E3D0DA /* YZBaseUI.h */,
 				B01228C02462BED40082E67A /* YZNetwork */,
 				B0C96D01242C8A2800BA86FB /* YZBase */,
@@ -340,6 +341,13 @@
 			);
 			name = YZNetwork;
 			path = ../YZBaseUI/Classes/YZNetwork;
+			sourceTree = "<group>";
+		};
+		B01228EC2462E2A20082E67A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		B014F214242B378100C01DAC /* YZCategory */ = {
