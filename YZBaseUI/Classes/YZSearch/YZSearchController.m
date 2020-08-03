@@ -152,9 +152,9 @@
         }
     }else {
         if (indexPath.section == 1) {
-            view.deleteBtn.hidden = true;
-        }else {
             view.deleteBtn.hidden = false;
+        }else {
+            view.deleteBtn.hidden = true;
         }
         titleArr = @[self.hotkeysTitle, self.historyTitle];
     }
