@@ -40,10 +40,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface YZSearchController : UIViewController
 
 // 历史记录
-@property(nonatomic, copy) NSArray *history;
+@property(nonatomic, strong) NSMutableArray *history;
 
 // 热词
-@property(nonatomic, copy) NSArray *hotKeys;
+@property(nonatomic, strong) NSMutableArray *hotKeys;
 
 // 行间距   默认为5
 @property(nonatomic, assign) float rowSpacing;
