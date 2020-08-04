@@ -63,6 +63,11 @@
     [super viewWillAppear:animated];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [_searchBar becomeFirstResponder];
+}
+
 - (void)viewWillDisappear:(BOOL)animated {
     if ([self.delegate respondsToSelector:@selector(searchControllerWillDisappear:)]) {
         [self.delegate searchControllerWillDisappear:self];
