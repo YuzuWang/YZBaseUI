@@ -26,10 +26,16 @@
     self.view.backgroundColor = [UIColor redColor];
 }
 
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
 #pragma mark - UI
 - (void)initView {
     
 }
+
+
 
 #pragma mark - delegate
 
@@ -39,6 +45,8 @@
 
 #pragma mark - setter getter
 
-
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event 
+{
+    [self.navigationController pushViewController:[YZResultController new] animated:true];
+}
 @end

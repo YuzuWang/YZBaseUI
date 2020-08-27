@@ -53,6 +53,7 @@
     [super viewDidLoad];
     self.extendedLayoutIncludesOpaqueBars = true;
     [self initView];
+    [_searchBar becomeFirstResponder];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -65,7 +66,6 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [_searchBar becomeFirstResponder];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
