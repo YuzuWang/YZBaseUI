@@ -18,15 +18,11 @@
 
 @property(nonatomic, strong) UIView *containerView;
 
-@property(nonatomic, strong) UISearchBar *searchBar;
-
 @property(nonatomic, strong) UICollectionView *collectionView;
 
 @property(nonatomic, strong) YZSearchCollectionViewLayout *layout;
 
 @property(nonatomic, strong) NSMutableArray<NSMutableArray *> *dataArray;
-
-@property(nonatomic, strong) UIView *backBtn;
 
 @end
 
@@ -359,9 +355,9 @@
     return _containerView;
 }
 
-- (UISearchBar *)searchBar {
+- (YZSearchBar *)searchBar {
     if (!_searchBar) {
-        _searchBar = [[UISearchBar alloc] init];
+        _searchBar = [[YZSearchBar alloc] init];
         _searchBar.frame = CGRectMake(10, kStatusBarHeight + 4, SCREEN_WIDTH  - 10 * 2, 35);
         _searchBar.barTintColor = [UIColor dynamicColorWithLight:[UIColor whiteColor] dark:[UIColor darkGrayColor]];
         _searchBar.tintColor = [UIColor dynamicColorWithLight:[UIColor blackColor] dark:[UIColor whiteColor]];
@@ -379,11 +375,9 @@
         } else {
             searchTextField = [_searchBar valueForKey:@"searchField"];
         }
-        searchTextField.borderStyle = UITextBorderStyleNone;
+
         searchTextField.font = [UIFont systemFontOfSize:15];
         searchTextField.backgroundColor = [UIColor dynamicColorWithLight:[UIColor groupTableViewBackgroundColor] dark:[UIColor lightGrayColor]];
-        searchTextField.layer.cornerRadius = 12;
-        searchTextField.clipsToBounds = YES;
 
         if (@available(iOS 9.0, *)) {
             UIBarButtonItem *cancelBtn = [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]];

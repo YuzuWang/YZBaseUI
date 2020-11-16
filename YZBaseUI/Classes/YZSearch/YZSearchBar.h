@@ -1,8 +1,8 @@
 //
 //  YZSearchBar.h
-//  YZBaseUI_Example
+//  YZBaseUI
 //
-//  Created by Nansi on 2020/3/24.
+//  Created by Nansi on 2020/11/16.
 //  Copyright © 2020 niansi.no@gmail.com. All rights reserved.
 //
 

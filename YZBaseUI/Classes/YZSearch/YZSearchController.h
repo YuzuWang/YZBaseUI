@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YZSearchBar.h"
 
 
 typedef NS_ENUM(NSUInteger, YZSearchType) {
@@ -44,6 +45,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 热词
 @property(nonatomic, strong) NSMutableArray *hotKeys;
+
+// 搜索
+@property(nonatomic, strong) YZSearchBar *searchBar;
+
+// 返回按钮
+@property(nonatomic, strong) UIView *backBtn;
 
 // 行间距   默认为5
 @property(nonatomic, assign) float rowSpacing;

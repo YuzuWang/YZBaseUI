@@ -1,8 +1,8 @@
 //
 //  YZSearchBar.m
-//  YZBaseUI_Example
+//  YZBaseUI
 //
-//  Created by Nansi on 2020/3/24.
+//  Created by Nansi on 2020/11/16.
 //  Copyright © 2020 niansi.no@gmail.com. All rights reserved.
 //
 
@@ -10,34 +10,15 @@
 
 @implementation YZSearchBar
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        
-    }
-    return self;
-}
-
-#pragma mark - initView
-
-- (void)initView {
-    
-}
 
 
-#pragma mark - target
 
-#pragma mark - private
+#pragma mark - ===========================  setter  ===========================
 
-#pragma mark - getter setter
 
-/*
- // Only override drawRect: if you perform custom drawing.
- // An empty implementation adversely affects performance during animation.
- - (void)drawRect:(CGRect)rect {
- // Drawing code
- }
- */
+
+
+#pragma mark - ===========================  getter  ===========================
+
 
 @end
