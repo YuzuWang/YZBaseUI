@@ -1,6 +1,6 @@
 {
   "name": "YZBaseUI",
-  "version": "0.2.7",
+  "version": "0.3.5",
   "summary": "自用的部分控件",
   "description": "Some Base UI",
   "homepage": "https://github.com/YuzuWang/YZBaseUI",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/YuzuWang/YZBaseUI.git",
-    "tag": "0.2.7"
+    "tag": "0.3.5"
   },
   "platforms": {
     "ios": "9.0"

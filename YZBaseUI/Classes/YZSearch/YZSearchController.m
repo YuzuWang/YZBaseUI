@@ -362,7 +362,7 @@
 - (UISearchBar *)searchBar {
     if (!_searchBar) {
         _searchBar = [[UISearchBar alloc] init];
-        _searchBar.frame = CGRectMake(40, kStatusBarHeight + 4, SCREEN_WIDTH - 40 - 12, 35);
+        _searchBar.frame = CGRectMake(10, kStatusBarHeight + 4, SCREEN_WIDTH  - 10 * 2, 35);
         _searchBar.barTintColor = [UIColor dynamicColorWithLight:[UIColor whiteColor] dark:[UIColor darkGrayColor]];
         _searchBar.tintColor = [UIColor dynamicColorWithLight:[UIColor blackColor] dark:[UIColor whiteColor]];
         _searchBar.delegate = self;
@@ -372,14 +372,18 @@
         UIColor *color = [UIColor dynamicColorWithLight:[UIColor whiteColor] dark:[UIColor darkGrayColor]];
         barImageView.layer.borderColor = color.CGColor;
         barImageView.layer.borderWidth = 1;
-        
+    
         UITextField * searchTextField =  [_searchBar valueForKey:@"searchField"];
+        searchTextField.borderStyle = UITextBorderStyleNone;
         searchTextField.font = [UIFont systemFontOfSize:15];
-        
         searchTextField.backgroundColor = [UIColor dynamicColorWithLight:[UIColor groupTableViewBackgroundColor] dark:[UIColor lightGrayColor]];
+        searchTextField.layer.cornerRadius = 12;
 
         if (@available(iOS 9.0, *)) {
             UIBarButtonItem *cancelBtn = [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]];
+            [cancelBtn setTitleTextAttributes:@{
+                NSFontAttributeName : [UIFont systemFontOfSize:15]
+            } forState:(UIControlStateNormal)];
             cancelBtn.title = @"取消";
         } else {
             // Fallback on earlier versions

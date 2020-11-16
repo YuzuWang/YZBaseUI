@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// Hex 颜色转换
 /// 默认 alpha 为1
 /// @param stringToConvert HEX 色值
-+ (UIColor *) s_colorWithHexString: (NSString *) stringToConvert;
++ (UIColor *)s_colorWithHexString: (NSString *) stringToConvert;
 
 /// 动态颜色
 /// @param lightColor 默认模式下的颜色

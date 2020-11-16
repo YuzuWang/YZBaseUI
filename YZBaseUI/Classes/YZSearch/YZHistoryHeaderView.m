@@ -16,7 +16,8 @@
     // Initialization code
     
     self.backgroundColor = [UIColor dynamicColorWithLight:[UIColor whiteColor] dark:[UIColor darkGrayColor]];
-    self.title.textColor = [UIColor dynamicColorWithLight:[UIColor blackColor] dark:[UIColor whiteColor]];
+    self.title.textColor = [UIColor s_colorWithHexString:@"0x222222"];
+    self.title.font = [UIFont systemFontOfSize:15];
 }
 
 - (IBAction)delete:(id)sender {
