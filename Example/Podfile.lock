@@ -19,18 +19,18 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YZBaseUI (0.3.5):
-    - YZBaseUI/YZBase (= 0.3.5)
-    - YZBaseUI/YZCategory (= 0.3.5)
-    - YZBaseUI/YZComponents (= 0.3.5)
-    - YZBaseUI/YZNetwork (= 0.3.5)
-    - YZBaseUI/YZSearch (= 0.3.5)
-  - YZBaseUI/YZBase (0.3.5)
-  - YZBaseUI/YZCategory (0.3.5)
-  - YZBaseUI/YZComponents (0.3.5)
-  - YZBaseUI/YZNetwork (0.3.5):
+  - YZBaseUI (0.3.6):
+    - YZBaseUI/YZBase (= 0.3.6)
+    - YZBaseUI/YZCategory (= 0.3.6)
+    - YZBaseUI/YZComponents (= 0.3.6)
+    - YZBaseUI/YZNetwork (= 0.3.6)
+    - YZBaseUI/YZSearch (= 0.3.6)
+  - YZBaseUI/YZBase (0.3.6)
+  - YZBaseUI/YZCategory (0.3.6)
+  - YZBaseUI/YZComponents (0.3.6)
+  - YZBaseUI/YZNetwork (0.3.6):
     - AFNetworking (~> 4.0.1)
-  - YZBaseUI/YZSearch (0.3.5):
+  - YZBaseUI/YZSearch (0.3.6):
     - YZBaseUI/YZBase
     - YZBaseUI/YZCategory
 
@@ -50,7 +50,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YZBaseUI: 0c97f6c2c28672cf07de61ce730c617f9ea644d1
+  YZBaseUI: ee24e8f36d3d723bd645b7a30f18a4cc453b9065
 
 PODFILE CHECKSUM: 93a250ace40e93501a551494fd5ab3773d94e2d0
 

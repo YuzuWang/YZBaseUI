@@ -373,11 +373,17 @@
         barImageView.layer.borderColor = color.CGColor;
         barImageView.layer.borderWidth = 1;
     
-        UITextField * searchTextField =  [_searchBar valueForKey:@"searchField"];
+        UITextField * searchTextField;
+        if (@available(iOS 13.0, *)) {
+            searchTextField = _searchBar.searchTextField;
+        } else {
+            searchTextField = [_searchBar valueForKey:@"searchField"];
+        }
         searchTextField.borderStyle = UITextBorderStyleNone;
         searchTextField.font = [UIFont systemFontOfSize:15];
         searchTextField.backgroundColor = [UIColor dynamicColorWithLight:[UIColor groupTableViewBackgroundColor] dark:[UIColor lightGrayColor]];
         searchTextField.layer.cornerRadius = 12;
+        searchTextField.clipsToBounds = YES;
 
         if (@available(iOS 9.0, *)) {
             UIBarButtonItem *cancelBtn = [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]];
