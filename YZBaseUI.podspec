@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YZBaseUI'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
   s.summary          = '自用的部分控件'
 
 # This description is used to generate tags and improve search results.

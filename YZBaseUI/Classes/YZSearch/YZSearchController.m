@@ -273,14 +273,23 @@
 /// 展示搜索结果
 - (void)showResult {
     if (_childController) {
-           [self addChildViewController:_childController];
-           _childController.view.frame = CGRectMake(0, kSafeAreaTopHeight, SCREEN_WIDTH, SCREENH_HEIGHT - kSafeAreaTopHeight);
-           [self.view addSubview:_childController.view];
-           [_childController didMoveToParentViewController:self];
-       }
+        if (_backBtn) {
+            _searchBar.frame = CGRectMake(40, kStatusBarHeight + 4, SCREEN_WIDTH  - 10 - 40, 35);
+        }
+    
+        [self addChildViewController:_childController];
+        _childController.view.frame = CGRectMake(0, kSafeAreaTopHeight, SCREEN_WIDTH, SCREENH_HEIGHT - kSafeAreaTopHeight);
+        [self.view addSubview:_childController.view];
+        [_childController didMoveToParentViewController:self];
+    }
 }
 
 - (void)dismissResult {
+    
+    if (_backBtn) {
+        _searchBar.frame = CGRectMake(10, kStatusBarHeight + 4, SCREEN_WIDTH  - 10 * 2, 35);
+    }
+    
     [_childController willMoveToParentViewController:nil];
     [_childController.view removeFromSuperview];
     [_childController removeFromParentViewController];
